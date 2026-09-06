@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-06T13:45:19.503Z",
+  "exportedAt": "2026-09-06T14:05:30.706Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 20,
@@ -23,7 +23,7 @@
       "bgGradient": "from-emerald-950 via-green-900 to-teal-950",
       "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/terra.png?raw=true",
-      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ironwood%20Deal.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
@@ -143,7 +143,7 @@
       "bgGradient": "from-orange-950 via-red-950 to-amber-950",
       "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/vulcao.jpg?raw=true",
-      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Root%20and%20Reed.mp3",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
@@ -383,7 +383,7 @@
       "bgGradient": "from-purple-950 via-slate-900 to-indigo-950",
       "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/montanha.jpg?raw=true",
-      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Zephyr-Heights.mp3",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Thunderous%20Siege.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
@@ -4773,10 +4773,10 @@
       "battle": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental-Battle-Wrath.mp3",
       "boss": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental%20Wrath.mp3",
       "worldTracks": {
-        "1": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
-        "2": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Root%20and%20Reed.mp3",
+        "1": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ironwood%20Deal.mp3",
+        "2": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
         "3": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Crystal-Currents.mp3",
-        "4": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Zephyr-Heights.mp3"
+        "4": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Thunderous%20Siege.mp3"
       }
     },
     "sfx": {
