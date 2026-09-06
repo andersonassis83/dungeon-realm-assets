@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-06T14:18:41.888Z",
+  "exportedAt": "2026-09-06T14:40:17.229Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 20,
@@ -4770,7 +4770,7 @@
       "worldSelect": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/mainscreem/Primal-Ground.mp3",
       "menu": "",
       "map": "",
-      "battle": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental%20Wrath.mp3",
+      "battle": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/battles/Elemental%20Wrath.mp3",
       "boss": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental%20Wrath.mp3",
       "worldTracks": {
         "1": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ironwood%20Deal.mp3",
