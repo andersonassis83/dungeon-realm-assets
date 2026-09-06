@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-05T17:40:43.321Z",
+  "exportedAt": "2026-09-06T13:22:10.246Z",
   "summary": {
     "worldsCount": 4,
-    "stagesCount": 17,
-    "adversariesCount": 20,
+    "stagesCount": 20,
+    "adversariesCount": 24,
     "cardsCount": 155,
     "creaturesCount": 4,
     "familiarsCount": 5,
@@ -23,6 +23,7 @@
       "bgGradient": "from-emerald-950 via-green-900 to-teal-950",
       "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/terra.png?raw=true",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
@@ -51,11 +52,11 @@
           "worldId": 1,
           "stageNumber": 2,
           "name": "Fase 2: Besouro Tóxico",
-          "description": "Confronto contra Besouro Tóxico (Nível 3).",
+          "description": "Confronto contra Besouro Tóxico (Nível 2).",
           "isBoss": false,
-          "recommendedPower": 120,
-          "rewardCoins": 75,
-          "rewardExp": 120,
+          "recommendedPower": 80,
+          "rewardCoins": 50,
+          "rewardExp": 80,
           "backgroundTheme": "terra-2",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryData": {
@@ -72,11 +73,11 @@
           "worldId": 1,
           "stageNumber": 3,
           "name": "Fase 3: Saurio de Musgo",
-          "description": "Confronto contra Saurio de Musgo (Nível 1).",
+          "description": "Confronto contra Saurio de Musgo (Nível 2).",
           "isBoss": false,
-          "recommendedPower": 40,
-          "rewardCoins": 105,
-          "rewardExp": 140,
+          "recommendedPower": 80,
+          "rewardCoins": 130,
+          "rewardExp": 180,
           "backgroundTheme": "terra-3",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryData": {
@@ -93,11 +94,11 @@
           "worldId": 1,
           "stageNumber": 4,
           "name": "Fase 4: Entim Ancestral",
-          "description": "Confronto contra Entim Ancestral (Nível 8).",
+          "description": "Confronto contra Entim Ancestral (Nível 2).",
           "isBoss": false,
-          "recommendedPower": 320,
-          "rewardCoins": 280,
-          "rewardExp": 420,
+          "recommendedPower": 80,
+          "rewardCoins": 130,
+          "rewardExp": 180,
           "backgroundTheme": "terra-4",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryData": {
@@ -114,11 +115,11 @@
           "worldId": 1,
           "stageNumber": 5,
           "name": "Fase 5: CHEFÃO - Titã Sylvano",
-          "description": "Confronto contra Titã Sylvano (Nível 10).",
+          "description": "Confronto contra Titã Sylvano (Nível 4).",
           "isBoss": true,
-          "recommendedPower": 400,
-          "rewardCoins": 450,
-          "rewardExp": 700,
+          "recommendedPower": 160,
+          "rewardCoins": 300,
+          "rewardExp": 460,
           "backgroundTheme": "terra-5",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta3.png?raw=true",
           "adversaryData": {
@@ -140,28 +141,29 @@
       "element": "fogo",
       "color": "#f59e0b",
       "bgGradient": "from-orange-950 via-red-950 to-amber-950",
-      "bannerImage": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1200&q=80",
+      "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
       "bgImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Root%20and%20Reed.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
           "id": 201,
           "worldId": 2,
           "stageNumber": 1,
-          "name": "Fase 1: Sprout Foliado",
-          "description": "Confronto contra Sprout Foliado (Nível 1).",
+          "name": "Fase 1: Salamandra Ígnea",
+          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-1",
-          "bgImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_salamandra"
           },
           "enemy": {
-            "id": "adv_sprout",
-            "name": "Sprout Foliado",
+            "id": "adv_salamandra",
+            "name": "Salamandra Ígnea",
             "class": "terra"
           }
         },
@@ -169,14 +171,77 @@
           "id": 202,
           "worldId": 2,
           "stageNumber": 2,
-          "name": "Fase 2: CHEFÃO - Pyros O Devorador",
+          "name": "Fase 2: Salamandra Ígnea",
+          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "isBoss": false,
+          "recommendedPower": 40,
+          "rewardCoins": 25,
+          "rewardExp": 40,
+          "backgroundTheme": "fogo-2",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryData": {
+            "id": "adv_salamandra"
+          },
+          "enemy": {
+            "id": "adv_salamandra",
+            "name": "Salamandra Ígnea",
+            "class": "terra"
+          }
+        },
+        {
+          "id": 203,
+          "worldId": 2,
+          "stageNumber": 3,
+          "name": "Fase 3: Salamandra Ígnea",
+          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "isBoss": false,
+          "recommendedPower": 40,
+          "rewardCoins": 25,
+          "rewardExp": 40,
+          "backgroundTheme": "fogo-3",
+          "bgImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
+          "adversaryData": {
+            "id": "adv_salamandra"
+          },
+          "enemy": {
+            "id": "adv_salamandra",
+            "name": "Salamandra Ígnea",
+            "class": "terra"
+          }
+        },
+        {
+          "id": 204,
+          "worldId": 2,
+          "stageNumber": 4,
+          "name": "Fase 4: Salamandra Ígnea",
+          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "isBoss": false,
+          "recommendedPower": 40,
+          "rewardCoins": 25,
+          "rewardExp": 40,
+          "backgroundTheme": "fogo-4",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryData": {
+            "id": "adv_salamandra"
+          },
+          "enemy": {
+            "id": "adv_salamandra",
+            "name": "Salamandra Ígnea",
+            "class": "terra"
+          }
+        },
+        {
+          "id": 205,
+          "worldId": 2,
+          "stageNumber": 5,
+          "name": "Fase 5: CHEFÃO - Pyros O Devorador",
           "description": "Confronto contra Pyros O Devorador (Nível 2).",
           "isBoss": true,
           "recommendedPower": 80,
           "rewardCoins": 250,
           "rewardExp": 380,
-          "backgroundTheme": "fogo-2",
-          "bgImage": "https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=1600&q=80",
+          "backgroundTheme": "fogo-5",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava3.jpg?raw=true",
           "adversaryData": {
             "id": "adv_pyros"
           },
@@ -196,21 +261,23 @@
       "element": "agua",
       "color": "#06b6d4",
       "bgGradient": "from-slate-950 via-blue-950 to-cyan-950",
-      "bannerImage": "https://images.unsplash.com/photo-1682687982501-1e58ab814714?auto=format&fit=crop&w=1200&q=80",
+      "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
       "bgImage": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=1600&q=80",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Crystal-Currents.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
           "id": 301,
           "worldId": 3,
           "stageNumber": 1,
-          "name": "Fase 1: Lula Luminescente",
-          "description": "Criatura das sombras com tentáculos rápidos e jactos de água.",
+          "name": "Fase 1: Lula das Marés",
+          "description": "Confronto contra Lula das Marés (Nível 6).",
           "isBoss": false,
-          "recommendedPower": 450,
-          "rewardCoins": 280,
-          "rewardExp": 380,
-          "backgroundTheme": "ocean-1",
+          "recommendedPower": 240,
+          "rewardCoins": 150,
+          "rewardExp": 240,
+          "backgroundTheme": "agua-1",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
@@ -224,13 +291,14 @@
           "id": 302,
           "worldId": 3,
           "stageNumber": 2,
-          "name": "Fase 2: Tubarão de Coral",
-          "description": "Predador veloz com garras afiadas e alto impulso de ataque.",
+          "name": "Fase 2: Tubarão Arrecife",
+          "description": "Confronto contra Tubarão Arrecife (Nível 10).",
           "isBoss": false,
-          "recommendedPower": 490,
-          "rewardCoins": 320,
-          "rewardExp": 430,
-          "backgroundTheme": "ocean-2",
+          "recommendedPower": 400,
+          "rewardCoins": 330,
+          "rewardExp": 500,
+          "backgroundTheme": "agua-2",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_tubarao"
           },
@@ -244,13 +312,14 @@
           "id": 303,
           "worldId": 3,
           "stageNumber": 3,
-          "name": "Fase 3: Tartaruga das Profundezas",
-          "description": "Cascudo impenetrável com altos escudos e contragolpes.",
+          "name": "Fase 3: Tartaruga do Abismo",
+          "description": "Confronto contra Tartaruga do Abismo (Nível 12).",
           "isBoss": false,
-          "recommendedPower": 530,
-          "rewardCoins": 360,
-          "rewardExp": 480,
-          "backgroundTheme": "ocean-3",
+          "recommendedPower": 480,
+          "rewardCoins": 380,
+          "rewardExp": 580,
+          "backgroundTheme": "agua-3",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_tartaruga"
           },
@@ -264,13 +333,14 @@
           "id": 304,
           "worldId": 3,
           "stageNumber": 4,
-          "name": "Fase 4: Sereia Sombria",
-          "description": "Voz hipnótica capaz de atordoar inimigos e causar maremotos.",
+          "name": "Fase 4: Sereia Encantada",
+          "description": "Confronto contra Sereia Encantada (Nível 15).",
           "isBoss": false,
-          "recommendedPower": 580,
-          "rewardCoins": 400,
-          "rewardExp": 550,
-          "backgroundTheme": "ocean-4",
+          "recommendedPower": 600,
+          "rewardCoins": 455,
+          "rewardExp": 700,
+          "backgroundTheme": "agua-4",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryData": {
             "id": "adv_sereia"
           },
@@ -285,18 +355,19 @@
           "worldId": 3,
           "stageNumber": 5,
           "name": "Fase 5: CHEFÃO - Leviatã Abissal",
-          "description": "CHEFÃO Supremo do Oceano! Ataca com tsunamis furiosos e táticas de velocidade imbatíveis.",
+          "description": "Confronto contra Leviatã Abissal (Nível 20).",
           "isBoss": true,
-          "recommendedPower": 650,
-          "rewardCoins": 900,
+          "recommendedPower": 800,
+          "rewardCoins": 700,
           "rewardExp": 1100,
-          "backgroundTheme": "ocean-boss",
+          "backgroundTheme": "agua-5",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira3.jpg?raw=true",
           "adversaryData": {
             "id": "adv_leviata"
           },
           "enemy": {
             "id": "adv_leviata",
-            "name": "CHEFÃO: Leviatã Abissal",
+            "name": "Leviatã Abissal",
             "class": "terra"
           }
         }
@@ -310,21 +381,23 @@
       "element": "vento",
       "color": "#ec4899",
       "bgGradient": "from-purple-950 via-slate-900 to-indigo-950",
-      "bannerImage": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=1200&q=80",
+      "bannerImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
       "bgImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1600&q=80",
+      "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Zephyr-Heights.mp3",
       "initiallyUnlocked": true,
       "stages": [
         {
           "id": 401,
           "worldId": 4,
           "stageNumber": 1,
-          "name": "Fase 1: Griffin Estelar",
-          "description": "Criatura mística com asas reluzentes e penas de diamante.",
+          "name": "Fase 1: Griffin Astral",
+          "description": "Confronto contra Griffin Astral (Nível 10).",
           "isBoss": false,
-          "recommendedPower": 700,
-          "rewardCoins": 450,
-          "rewardExp": 600,
-          "backgroundTheme": "astral-1",
+          "recommendedPower": 400,
+          "rewardCoins": 250,
+          "rewardExp": 400,
+          "backgroundTheme": "vento-1",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_griffin"
           },
@@ -338,13 +411,14 @@
           "id": 402,
           "worldId": 4,
           "stageNumber": 2,
-          "name": "Fase 2: Quimera do Zodíaco",
-          "description": "Fusão entre ar, fogo e veneno que assola os céus.",
+          "name": "Fase 2: Quimera Cósmica",
+          "description": "Confronto contra Quimera Cósmica (Nível 12).",
           "isBoss": false,
-          "recommendedPower": 760,
-          "rewardCoins": 500,
-          "rewardExp": 700,
-          "backgroundTheme": "astral-2",
+          "recommendedPower": 480,
+          "rewardCoins": 380,
+          "rewardExp": 580,
+          "backgroundTheme": "vento-2",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_quimera_astro"
           },
@@ -358,13 +432,14 @@
           "id": 403,
           "worldId": 4,
           "stageNumber": 3,
-          "name": "Fase 3: Dragão do Vazio",
-          "description": "Mestre da ilusão e roubo de energia.",
+          "name": "Fase 3: Dragão Nebuloso",
+          "description": "Confronto contra Dragão Nebuloso (Nível 15).",
           "isBoss": false,
-          "recommendedPower": 820,
-          "rewardCoins": 580,
-          "rewardExp": 800,
-          "backgroundTheme": "astral-3",
+          "recommendedPower": 600,
+          "rewardCoins": 455,
+          "rewardExp": 700,
+          "backgroundTheme": "vento-3",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryData": {
             "id": "adv_dragao_nebuloso"
           },
@@ -378,13 +453,14 @@
           "id": 404,
           "worldId": 4,
           "stageNumber": 4,
-          "name": "Fase 4: Seraphim Cósmico",
-          "description": "Guardião dos portões celestiais com escudos divinos.",
+          "name": "Fase 4: Seraphim de Luz",
+          "description": "Confronto contra Seraphim de Luz (Nível 18).",
           "isBoss": false,
-          "recommendedPower": 880,
-          "rewardCoins": 650,
-          "rewardExp": 950,
-          "backgroundTheme": "astral-4",
+          "recommendedPower": 720,
+          "rewardCoins": 530,
+          "rewardExp": 820,
+          "backgroundTheme": "vento-4",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryData": {
             "id": "adv_seraphim"
           },
@@ -398,20 +474,20 @@
           "id": 405,
           "worldId": 4,
           "stageNumber": 5,
-          "name": "Fase 5: CHEFÃO SUPREMO - Chronos O Senhor do Universo",
-          "description": "O CHEFÃO FINAL do Jogo! Possui vida colossal, habilidades lendárias e atordoamentos transcendentais!",
+          "name": "Fase 5: CHEFÃO - Chronos Astral",
+          "description": "Confronto contra Chronos Astral (Nível 25).",
           "isBoss": true,
           "recommendedPower": 1000,
-          "rewardCoins": 2000,
-          "rewardExp": 3000,
-          "backgroundTheme": "astral-boss",
-          "bgImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1600&q=80",
+          "rewardCoins": 825,
+          "rewardExp": 1300,
+          "backgroundTheme": "vento-5",
+          "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha3.jpg?raw=true",
           "adversaryData": {
             "id": "adv_chronos"
           },
           "enemy": {
             "id": "adv_chronos",
-            "name": "CHEFÃO SUPREMO: Chronos Astral",
+            "name": "Chronos Astral",
             "class": "terra"
           }
         }
@@ -455,135 +531,129 @@
     {
       "id": "adv_besouro",
       "name": "Besouro Tóxico",
-      "level": 3,
+      "level": 2,
       "class": "terra",
       "genre": "generico",
+      "maxHp": 206,
+      "attackPower": 14,
+      "defensePower": 15,
+      "speed": 10,
+      "dexterity": 9,
+      "vigor": 12,
       "deckPoolCardIds": [
-        "terra_1",
-        "terra_2",
         "terra_3",
-        "terra_5"
+        "terra_1",
+        "terra_ef_2",
+        "terra_ef_3"
       ],
       "dropPoolCardIds": [],
       "deckPoolWeights": {
-        "terra_1": 40,
-        "terra_2": 30,
-        "terra_3": 20,
-        "terra_5": 10
+        "terra_3": 70,
+        "terra_1": 70,
+        "terra_ef_2": 70,
+        "terra_ef_3": 70
       },
-      "maxHp": 190,
-      "attackPower": 16,
-      "defensePower": 12,
-      "speed": 14,
-      "dexterity": 10,
-      "vigor": 10,
-      "color": "#10b981",
-      "secondaryColor": "#065f46",
-      "bodyType": "oval",
-      "horns": "spikes",
-      "ears": "leaf",
-      "tail": "shrimp",
-      "eyeStyle": "fierce",
-      "pattern": "spots",
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "terra"
     },
     {
       "id": "adv_saurio",
       "name": "Saurio de Musgo",
-      "level": 1,
+      "level": 2,
       "class": "terra",
       "genre": "elemental",
-      "maxHp": 150,
-      "attackPower": 15,
-      "defensePower": 8,
-      "speed": 12,
-      "dexterity": 7,
-      "vigor": 7,
+      "maxHp": 278,
+      "attackPower": 19,
+      "defensePower": 22,
+      "speed": 13,
+      "dexterity": 13,
+      "vigor": 17,
       "deckPoolCardIds": [
-        "terra_1",
-        "terra_2",
         "terra_3",
-        "terra_4",
-        "terra_5",
-        "terra_6"
+        "terra_1",
+        "terra_ef_2",
+        "terra_ef_3",
+        "terra_2"
       ],
       "dropPoolCardIds": [
         "terra_3",
-        "terra_4"
+        "terra_ef_2"
       ],
       "deckPoolWeights": {
-        "terra_1": 30,
-        "terra_2": 30,
-        "terra_3": 20,
-        "terra_4": 10,
-        "terra_5": 5,
-        "terra_6": 5
+        "terra_3": 70,
+        "terra_1": 70,
+        "terra_ef_2": 70,
+        "terra_ef_3": 70,
+        "terra_2": 70
       },
       "dropPoolWeights": {
-        "terra_3": 70,
-        "terra_4": 30
+        "terra_3": 35,
+        "terra_ef_2": 35
       },
-      "elementalDropChance": 65,
-      "bossGemVsCardDropChance": 50,
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
-      "gemDropWeights": {
-        "terra": 10
-      },
+      "gemDropWeights": {},
       "element": "terra"
     },
     {
       "id": "adv_tita_sylvano",
       "name": "Titã Sylvano",
-      "level": 10,
+      "level": 4,
       "class": "terra",
       "genre": "boss",
+      "maxHp": 518,
+      "attackPower": 33,
+      "defensePower": 40,
+      "speed": 18,
+      "dexterity": 20,
+      "vigor": 30,
       "deckPoolCardIds": [
-        "terra_1",
-        "terra_2",
         "terra_3",
-        "terra_4",
-        "terra_5",
-        "terra_6"
+        "terra_1",
+        "terra_8",
+        "terra_ef_1",
+        "terra_custom_1785695339659",
+        "terra_custom_1785695727046"
       ],
       "dropPoolCardIds": [
-        "terra_4",
-        "terra_6"
+        "terra_custom_1785695339659",
+        "terra_custom_1785695727046",
+        "terra_custom_1785695634553",
+        "terra_custom_1785695793415"
       ],
       "deckPoolWeights": {
-        "terra_1": 20,
-        "terra_2": 20,
-        "terra_3": 20,
-        "terra_4": 20,
-        "terra_5": 10,
-        "terra_6": 10
+        "terra_3": 70,
+        "terra_1": 70,
+        "terra_8": 70,
+        "terra_ef_1": 70,
+        "terra_custom_1785695339659": 70,
+        "terra_custom_1785695727046": 70
       },
       "dropPoolWeights": {
-        "terra_4": 80,
-        "terra_6": 20
+        "terra_custom_1785695339659": 60,
+        "terra_custom_1785695727046": 60,
+        "terra_custom_1785695634553": 60,
+        "terra_custom_1785695793415": 60
       },
+      "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
         "terra",
-        "luz"
+        "agua",
+        "fogo",
+        "vento"
       ],
       "gemDropWeights": {
-        "terra": 70,
-        "luz": 30
+        "terra": 25,
+        "agua": 25,
+        "fogo": 25,
+        "vento": 25
       },
-      "maxHp": 450,
-      "attackPower": 35,
-      "defensePower": 25,
-      "speed": 20,
-      "dexterity": 18,
-      "vigor": 22,
-      "color": "#065f46",
-      "secondaryColor": "#022c22",
-      "bodyType": "spiky",
-      "horns": "coral",
-      "ears": "leaf",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
       "element": "terra"
     },
     {
@@ -624,698 +694,770 @@
     {
       "id": "adv_mantis_brasas",
       "name": "Mantis de Brasas",
-      "level": 8,
+      "level": 2,
       "class": "fogo",
       "genre": "elemental",
+      "maxHp": 220,
+      "attackPower": 25,
+      "defensePower": 15,
+      "speed": 17,
+      "dexterity": 16,
+      "vigor": 19,
       "deckPoolCardIds": [
-        "fogo_1",
-        "fogo_2",
+        "fogo_ef_1",
+        "fogo_5",
+        "fogo_ef_3",
         "fogo_3",
-        "fogo_4",
-        "fogo_5"
+        "fogo_6"
       ],
       "dropPoolCardIds": [
-        "fogo_3",
-        "fogo_4"
+        "fogo_ef_1",
+        "fogo_ef_3"
       ],
       "deckPoolWeights": {
-        "fogo_1": 25,
-        "fogo_2": 25,
-        "fogo_3": 25,
-        "fogo_4": 15,
-        "fogo_5": 10
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_ef_3": 70,
+        "fogo_3": 70,
+        "fogo_6": 70
       },
       "dropPoolWeights": {
-        "fogo_3": 75,
-        "fogo_4": 25
+        "fogo_ef_1": 35,
+        "fogo_ef_3": 35
       },
-      "elementalDropChance": 70,
-      "maxHp": 310,
-      "attackPower": 30,
-      "defensePower": 15,
-      "speed": 22,
-      "dexterity": 18,
-      "vigor": 18,
-      "color": "#ea580c",
-      "secondaryColor": "#7c2d12",
-      "bodyType": "sleek",
-      "horns": "antenna",
-      "ears": "wing",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "fogo"
     },
     {
       "id": "adv_pyros",
       "name": "Pyros O Devorador",
-      "level": 2,
+      "level": 4,
       "class": "fogo",
       "genre": "boss",
-      "maxHp": 305,
-      "attackPower": 33,
-      "defensePower": 17,
-      "speed": 17,
-      "dexterity": 9,
-      "vigor": 9,
+      "maxHp": 410,
+      "attackPower": 43,
+      "defensePower": 28,
+      "speed": 24,
+      "dexterity": 24,
+      "vigor": 32,
       "deckPoolCardIds": [
-        "fogo_1",
-        "fogo_2",
-        "fogo_act_3",
-        "fogo_act_4",
-        "fogo_custom_1785695229746",
-        "fogo_custom_1785695139180",
-        "fogo_custom_1785694780235",
+        "fogo_ef_1",
+        "fogo_5",
         "fogo_custom_1785694886489",
+        "fogo_custom_1785694598526",
+        "fogo_custom_1785694780235",
         "fogo_custom_1785694973291"
       ],
       "dropPoolCardIds": [
-        "fogo_4",
-        "fogo_6"
+        "fogo_custom_1785694780235",
+        "fogo_custom_1785694973291",
+        "fogo_custom_1785695139180",
+        "fogo_custom_1785695229746"
       ],
       "deckPoolWeights": {
-        "fogo_1": 15,
-        "fogo_2": 20,
-        "fogo_3": 20,
-        "fogo_4": 20,
-        "fogo_5": 15,
-        "fogo_6": 10,
-        "fogo_act_3": 10,
-        "fogo_act_4": 10,
-        "fogo_custom_1785695229746": 10,
-        "fogo_custom_1785695139180": 10,
-        "fogo_custom_1785694780235": 10,
-        "fogo_custom_1785694886489": 10,
-        "fogo_custom_1785694973291": 10
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_custom_1785694886489": 70,
+        "fogo_custom_1785694598526": 70,
+        "fogo_custom_1785694780235": 70,
+        "fogo_custom_1785694973291": 70
       },
       "dropPoolWeights": {
-        "fogo_4": 80,
-        "fogo_6": 20
+        "fogo_custom_1785694780235": 60,
+        "fogo_custom_1785694973291": 60,
+        "fogo_custom_1785695139180": 60,
+        "fogo_custom_1785695229746": 60
       },
-      "elementalDropChance": 60,
+      "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
         "fogo",
-        "vento",
+        "terra",
         "agua",
-        "terra"
+        "vento"
       ],
       "gemDropWeights": {
-        "fogo": 70,
-        "plasma": 30,
-        "vento": 10,
-        "agua": 10,
-        "terra": 10
+        "fogo": 25,
+        "terra": 25,
+        "agua": 25,
+        "vento": 25
       },
       "element": "fogo"
     },
     {
       "id": "adv_lula_mares",
-      "name": "Lula das Marés",
-      "level": 6,
+      "name": "Água viva furiosa",
+      "level": 1,
       "class": "agua",
       "genre": "generico",
+      "maxHp": 167,
+      "attackPower": 12,
+      "defensePower": 11,
+      "speed": 11,
+      "dexterity": 10,
+      "vigor": 11,
       "deckPoolCardIds": [
-        "agua_1",
-        "agua_2",
-        "agua_5"
+        "agua_4",
+        "agua_5",
+        "agua_ef_1",
+        "agua_ef_2"
       ],
       "dropPoolCardIds": [],
       "deckPoolWeights": {
-        "agua_1": 45,
-        "agua_2": 35,
-        "agua_5": 20
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_ef_1": 70,
+        "agua_ef_2": 70
       },
-      "maxHp": 280,
-      "attackPower": 22,
-      "defensePower": 16,
-      "speed": 18,
-      "dexterity": 15,
-      "vigor": 15,
-      "color": "#0284c7",
-      "secondaryColor": "#075985",
-      "bodyType": "round",
-      "horns": "antenna",
-      "ears": "fin",
-      "tail": "shrimp",
-      "eyeStyle": "cute",
-      "pattern": "belly",
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "agua"
     },
     {
       "id": "adv_leviata",
       "name": "Leviatã Abissal",
-      "level": 20,
+      "level": 4,
       "class": "agua",
       "genre": "boss",
+      "maxHp": 475,
+      "attackPower": 35,
+      "defensePower": 34,
+      "speed": 21,
+      "dexterity": 25,
+      "vigor": 31,
       "deckPoolCardIds": [
-        "agua_1",
-        "agua_2",
-        "agua_3",
         "agua_4",
         "agua_5",
-        "agua_6"
+        "agua_6",
+        "agua_act_3",
+        "agua_act_4",
+        "agua_3"
       ],
       "dropPoolCardIds": [
-        "agua_4",
-        "agua_6"
+        "agua_act_3",
+        "agua_act_4",
+        "agua_3",
+        "agua_act_2"
       ],
       "deckPoolWeights": {
-        "agua_1": 10,
-        "agua_2": 15,
-        "agua_3": 20,
-        "agua_4": 25,
-        "agua_5": 15,
-        "agua_6": 15
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_6": 70,
+        "agua_act_3": 70,
+        "agua_act_4": 70,
+        "agua_3": 70
       },
       "dropPoolWeights": {
-        "agua_4": 85,
-        "agua_6": 15
+        "agua_act_3": 60,
+        "agua_act_4": 60,
+        "agua_3": 60,
+        "agua_act_2": 60
       },
+      "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
         "agua",
-        "metal"
+        "terra",
+        "fogo",
+        "vento"
       ],
       "gemDropWeights": {
-        "agua": 75,
-        "metal": 25
+        "agua": 25,
+        "terra": 25,
+        "fogo": 25,
+        "vento": 25
       },
-      "maxHp": 750,
-      "attackPower": 60,
-      "defensePower": 40,
-      "speed": 30,
-      "dexterity": 25,
-      "vigor": 30,
-      "color": "#0369a1",
-      "secondaryColor": "#0c4a6e",
-      "bodyType": "spiky",
-      "horns": "coral",
-      "ears": "fin",
-      "tail": "lizard",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
       "element": "agua"
     },
     {
       "id": "adv_entim",
       "name": "Entim Ancestral",
-      "level": 8,
+      "level": 2,
       "class": "terra",
       "genre": "elemental",
+      "maxHp": 278,
+      "attackPower": 19,
+      "defensePower": 22,
+      "speed": 13,
+      "dexterity": 13,
+      "vigor": 17,
       "deckPoolCardIds": [
-        "terra_1",
-        "terra_2",
         "terra_3",
-        "terra_4",
-        "terra_5",
-        "terra_6"
+        "terra_1",
+        "terra_ef_2",
+        "terra_ef_3",
+        "terra_2"
       ],
       "dropPoolCardIds": [
-        "terra_4",
-        "terra_5"
+        "terra_3",
+        "terra_ef_2"
       ],
       "deckPoolWeights": {
-        "terra_1": 20,
-        "terra_2": 25,
-        "terra_3": 25,
-        "terra_4": 20,
-        "terra_5": 10
+        "terra_3": 70,
+        "terra_1": 70,
+        "terra_ef_2": 70,
+        "terra_ef_3": 70,
+        "terra_2": 70
       },
       "dropPoolWeights": {
-        "terra_4": 70,
-        "terra_5": 30
+        "terra_3": 35,
+        "terra_ef_2": 35
       },
-      "elementalDropChance": 75,
-      "maxHp": 320,
-      "attackPower": 28,
-      "defensePower": 22,
-      "speed": 18,
-      "dexterity": 16,
-      "vigor": 18,
-      "color": "#065f46",
-      "secondaryColor": "#022c22",
-      "bodyType": "spiky",
-      "horns": "coral",
-      "ears": "leaf",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "terra"
     },
     {
       "id": "adv_cerberus",
       "name": "Cerberus da Lava",
-      "level": 10,
+      "level": 2,
       "class": "fogo",
       "genre": "elemental",
+      "maxHp": 220,
+      "attackPower": 25,
+      "defensePower": 15,
+      "speed": 17,
+      "dexterity": 16,
+      "vigor": 19,
       "deckPoolCardIds": [
-        "fogo_1",
-        "fogo_2",
-        "fogo_3",
-        "fogo_4",
+        "fogo_ef_1",
         "fogo_5",
+        "fogo_ef_3",
+        "fogo_3",
         "fogo_6"
       ],
       "dropPoolCardIds": [
-        "fogo_3",
-        "fogo_5"
+        "fogo_ef_1",
+        "fogo_ef_3"
       ],
       "deckPoolWeights": {
-        "fogo_1": 20,
-        "fogo_2": 20,
-        "fogo_3": 25,
-        "fogo_4": 20,
-        "fogo_5": 15
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_ef_3": 70,
+        "fogo_3": 70,
+        "fogo_6": 70
       },
       "dropPoolWeights": {
-        "fogo_3": 60,
-        "fogo_5": 40
+        "fogo_ef_1": 35,
+        "fogo_ef_3": 35
       },
-      "elementalDropChance": 80,
-      "maxHp": 380,
-      "attackPower": 38,
-      "defensePower": 20,
-      "speed": 24,
-      "dexterity": 20,
-      "vigor": 22,
-      "color": "#c2410c",
-      "secondaryColor": "#451a03",
-      "bodyType": "spiky",
-      "horns": "spikes",
-      "ears": "fluffy",
-      "tail": "lizard",
-      "eyeStyle": "glowing",
-      "pattern": "spots",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "fogo"
     },
     {
       "id": "adv_fenix",
       "name": "Fênix de Cinza",
-      "level": 12,
+      "level": 2,
       "class": "fogo",
       "genre": "elemental",
+      "maxHp": 220,
+      "attackPower": 25,
+      "defensePower": 15,
+      "speed": 17,
+      "dexterity": 16,
+      "vigor": 19,
       "deckPoolCardIds": [
-        "fogo_1",
-        "fogo_2",
-        "fogo_3",
-        "fogo_4",
+        "fogo_ef_1",
         "fogo_5",
+        "fogo_ef_3",
+        "fogo_3",
         "fogo_6"
       ],
       "dropPoolCardIds": [
-        "fogo_4",
-        "fogo_6"
+        "fogo_ef_1",
+        "fogo_ef_3"
       ],
       "deckPoolWeights": {
-        "fogo_1": 15,
-        "fogo_2": 20,
-        "fogo_3": 25,
-        "fogo_4": 25,
-        "fogo_5": 15
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_ef_3": 70,
+        "fogo_3": 70,
+        "fogo_6": 70
       },
       "dropPoolWeights": {
-        "fogo_4": 70,
-        "fogo_6": 30
+        "fogo_ef_1": 35,
+        "fogo_ef_3": 35
       },
-      "elementalDropChance": 85,
-      "maxHp": 440,
-      "attackPower": 42,
-      "defensePower": 22,
-      "speed": 28,
-      "dexterity": 24,
-      "vigor": 24,
-      "color": "#ef4444",
-      "secondaryColor": "#7f1d1d",
-      "bodyType": "sleek",
-      "horns": "feather",
-      "ears": "wing",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "fogo"
     },
     {
       "id": "adv_tubarao",
       "name": "Tubarão Arrecife",
-      "level": 10,
+      "level": 2,
       "class": "agua",
       "genre": "elemental",
+      "maxHp": 255,
+      "attackPower": 20,
+      "defensePower": 18,
+      "speed": 16,
+      "dexterity": 16,
+      "vigor": 18,
       "deckPoolCardIds": [
-        "agua_1",
-        "agua_2",
-        "agua_3",
         "agua_4",
-        "agua_5"
+        "agua_5",
+        "agua_ef_1",
+        "agua_ef_2",
+        "agua_ef_3"
       ],
       "dropPoolCardIds": [
-        "agua_3",
-        "agua_4"
+        "agua_4",
+        "agua_ef_1"
       ],
       "deckPoolWeights": {
-        "agua_1": 25,
-        "agua_2": 25,
-        "agua_3": 25,
-        "agua_4": 15,
-        "agua_5": 10
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_ef_1": 70,
+        "agua_ef_2": 70,
+        "agua_ef_3": 70
       },
       "dropPoolWeights": {
-        "agua_3": 70,
-        "agua_4": 30
+        "agua_4": 35,
+        "agua_ef_1": 20
       },
-      "elementalDropChance": 75,
-      "maxHp": 380,
-      "attackPower": 34,
-      "defensePower": 20,
-      "speed": 26,
-      "dexterity": 22,
-      "vigor": 22,
-      "color": "#0ea5e9",
-      "secondaryColor": "#0369a1",
-      "bodyType": "round",
-      "horns": "coral",
-      "ears": "fin",
-      "tail": "shrimp",
-      "eyeStyle": "fierce",
-      "pattern": "spots",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "agua"
     },
     {
       "id": "adv_tartaruga",
       "name": "Tartaruga do Abismo",
-      "level": 12,
+      "level": 2,
       "class": "agua",
       "genre": "elemental",
+      "maxHp": 255,
+      "attackPower": 20,
+      "defensePower": 18,
+      "speed": 16,
+      "dexterity": 16,
+      "vigor": 18,
       "deckPoolCardIds": [
-        "agua_1",
-        "agua_2",
-        "agua_3",
         "agua_4",
         "agua_5",
-        "agua_6"
+        "agua_ef_1",
+        "agua_ef_2",
+        "agua_ef_3"
       ],
       "dropPoolCardIds": [
-        "agua_3",
-        "agua_5"
+        "agua_4",
+        "agua_ef_1"
       ],
       "deckPoolWeights": {
-        "agua_1": 20,
-        "agua_2": 20,
-        "agua_3": 30,
-        "agua_4": 20,
-        "agua_5": 10
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_ef_1": 70,
+        "agua_ef_2": 70,
+        "agua_ef_3": 70
       },
       "dropPoolWeights": {
-        "agua_3": 60,
-        "agua_5": 40
+        "agua_4": 35,
+        "agua_ef_1": 20
       },
-      "elementalDropChance": 80,
-      "maxHp": 460,
-      "attackPower": 28,
-      "defensePower": 36,
-      "speed": 20,
-      "dexterity": 24,
-      "vigor": 26,
-      "color": "#0d9488",
-      "secondaryColor": "#115e59",
-      "bodyType": "oval",
-      "horns": "spikes",
-      "ears": "leaf",
-      "tail": "lizard",
-      "eyeStyle": "sleepy",
-      "pattern": "belly",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "agua"
     },
     {
       "id": "adv_sereia",
       "name": "Sereia Encantada",
-      "level": 15,
+      "level": 2,
       "class": "agua",
       "genre": "elemental",
+      "maxHp": 255,
+      "attackPower": 20,
+      "defensePower": 18,
+      "speed": 16,
+      "dexterity": 16,
+      "vigor": 18,
       "deckPoolCardIds": [
-        "agua_1",
-        "agua_2",
-        "agua_3",
         "agua_4",
         "agua_5",
-        "agua_6"
+        "agua_ef_1",
+        "agua_ef_2",
+        "agua_ef_3"
       ],
       "dropPoolCardIds": [
         "agua_4",
-        "agua_6"
+        "agua_ef_1"
       ],
       "deckPoolWeights": {
-        "agua_1": 15,
-        "agua_2": 20,
-        "agua_3": 25,
-        "agua_4": 25,
-        "agua_5": 15
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_ef_1": 70,
+        "agua_ef_2": 70,
+        "agua_ef_3": 70
       },
       "dropPoolWeights": {
-        "agua_4": 70,
-        "agua_6": 30
+        "agua_4": 35,
+        "agua_ef_1": 20
       },
-      "elementalDropChance": 85,
-      "maxHp": 520,
-      "attackPower": 42,
-      "defensePower": 26,
-      "speed": 30,
-      "dexterity": 28,
-      "vigor": 28,
-      "color": "#2563eb",
-      "secondaryColor": "#1e40af",
-      "bodyType": "sleek",
-      "horns": "coral",
-      "ears": "fin",
-      "tail": "shrimp",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "agua"
     },
     {
       "id": "adv_griffin",
-      "name": "Griffin Astral",
-      "level": 10,
+      "name": "Vendaval Astral",
+      "level": 1,
       "class": "vento",
       "genre": "generico",
+      "maxHp": 134,
+      "attackPower": 13,
+      "defensePower": 9,
+      "speed": 15,
+      "dexterity": 12,
+      "vigor": 9,
       "deckPoolCardIds": [
-        "vento_1",
-        "vento_2",
-        "vento_5"
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_ef_3",
+        "vento_2"
       ],
       "dropPoolCardIds": [],
       "deckPoolWeights": {
-        "vento_1": 40,
-        "vento_2": 35,
-        "vento_5": 25
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_ef_3": 70,
+        "vento_2": 50
       },
-      "maxHp": 380,
-      "attackPower": 36,
-      "defensePower": 20,
-      "speed": 32,
-      "dexterity": 25,
-      "vigor": 22,
-      "color": "#d946ef",
-      "secondaryColor": "#86198f",
-      "bodyType": "sleek",
-      "horns": "feather",
-      "ears": "wing",
-      "tail": "feather",
-      "eyeStyle": "cute",
-      "pattern": "belly",
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "vento"
     },
     {
       "id": "adv_quimera_astro",
       "name": "Quimera Cósmica",
-      "level": 12,
+      "level": 2,
       "class": "vento",
       "genre": "elemental",
+      "maxHp": 204,
+      "attackPower": 21,
+      "defensePower": 15,
+      "speed": 21,
+      "dexterity": 19,
+      "vigor": 14,
       "deckPoolCardIds": [
-        "vento_1",
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_ef_3",
         "vento_2",
-        "vento_3",
-        "vento_4",
-        "vento_5"
+        "vento_6"
       ],
       "dropPoolCardIds": [
-        "vento_3",
-        "vento_4"
+        "vento_ef_1",
+        "vento_ef_3"
       ],
       "deckPoolWeights": {
-        "vento_1": 25,
-        "vento_2": 25,
-        "vento_3": 25,
-        "vento_4": 15,
-        "vento_5": 10
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_ef_3": 70,
+        "vento_2": 50,
+        "vento_6": 70
       },
       "dropPoolWeights": {
-        "vento_3": 70,
-        "vento_4": 30
+        "vento_ef_1": 35,
+        "vento_ef_3": 35
       },
-      "elementalDropChance": 75,
-      "maxHp": 450,
-      "attackPower": 42,
-      "defensePower": 24,
-      "speed": 34,
-      "dexterity": 28,
-      "vigor": 26,
-      "color": "#a855f7",
-      "secondaryColor": "#6b21a8",
-      "bodyType": "spiky",
-      "horns": "antenna",
-      "ears": "fluffy",
-      "tail": "shrimp",
-      "eyeStyle": "glowing",
-      "pattern": "spots",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "vento"
     },
     {
       "id": "adv_dragao_nebuloso",
       "name": "Dragão Nebuloso",
-      "level": 15,
+      "level": 2,
       "class": "vento",
       "genre": "elemental",
+      "maxHp": 204,
+      "attackPower": 21,
+      "defensePower": 15,
+      "speed": 21,
+      "dexterity": 19,
+      "vigor": 14,
       "deckPoolCardIds": [
-        "vento_1",
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_ef_3",
         "vento_2",
-        "vento_3",
-        "vento_4",
-        "vento_5",
         "vento_6"
       ],
       "dropPoolCardIds": [
-        "vento_3",
-        "vento_5"
+        "vento_ef_1",
+        "vento_ef_3"
       ],
       "deckPoolWeights": {
-        "vento_1": 20,
-        "vento_2": 20,
-        "vento_3": 25,
-        "vento_4": 20,
-        "vento_5": 15
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_ef_3": 70,
+        "vento_2": 50,
+        "vento_6": 70
       },
       "dropPoolWeights": {
-        "vento_3": 60,
-        "vento_5": 40
+        "vento_ef_1": 35,
+        "vento_ef_3": 35
       },
-      "elementalDropChance": 80,
-      "maxHp": 550,
-      "attackPower": 48,
-      "defensePower": 30,
-      "speed": 36,
-      "dexterity": 30,
-      "vigor": 30,
-      "color": "#6366f1",
-      "secondaryColor": "#3730a3",
-      "bodyType": "oval",
-      "horns": "spikes",
-      "ears": "fin",
-      "tail": "lizard",
-      "eyeStyle": "fierce",
-      "pattern": "stripes",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "vento"
     },
     {
       "id": "adv_seraphim",
       "name": "Seraphim de Luz",
-      "level": 18,
+      "level": 2,
       "class": "vento",
       "genre": "elemental",
+      "maxHp": 204,
+      "attackPower": 21,
+      "defensePower": 15,
+      "speed": 21,
+      "dexterity": 19,
+      "vigor": 14,
       "deckPoolCardIds": [
-        "vento_1",
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_ef_3",
         "vento_2",
-        "vento_3",
-        "vento_4",
-        "vento_5",
         "vento_6"
       ],
       "dropPoolCardIds": [
-        "vento_4",
-        "vento_6"
+        "vento_ef_1",
+        "vento_ef_3"
       ],
       "deckPoolWeights": {
-        "vento_1": 15,
-        "vento_2": 20,
-        "vento_3": 25,
-        "vento_4": 25,
-        "vento_5": 15
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_ef_3": 70,
+        "vento_2": 50,
+        "vento_6": 70
       },
       "dropPoolWeights": {
-        "vento_4": 70,
-        "vento_6": 30
+        "vento_ef_1": 35,
+        "vento_ef_3": 35
       },
-      "elementalDropChance": 85,
-      "maxHp": 650,
-      "attackPower": 54,
-      "defensePower": 34,
-      "speed": 40,
-      "dexterity": 34,
-      "vigor": 34,
-      "color": "#ec4899",
-      "secondaryColor": "#9d174d",
-      "bodyType": "sleek",
-      "horns": "feather",
-      "ears": "wing",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "belly",
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "vento"
     },
     {
       "id": "adv_chronos",
       "name": "Chronos Astral",
-      "level": 25,
+      "level": 4,
       "class": "vento",
       "genre": "boss",
+      "maxHp": 380,
+      "attackPower": 36,
+      "defensePower": 27,
+      "speed": 29,
+      "dexterity": 29,
+      "vigor": 25,
       "deckPoolCardIds": [
-        "vento_1",
-        "vento_2",
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_act_4",
         "vento_3",
-        "vento_4",
-        "vento_5",
-        "vento_6"
+        "vento_act_2",
+        "vento_4"
       ],
       "dropPoolCardIds": [
-        "vento_4",
-        "vento_6"
+        "vento_act_4",
+        "vento_3",
+        "vento_act_2",
+        "vento_4"
       ],
       "deckPoolWeights": {
-        "vento_1": 10,
-        "vento_2": 15,
-        "vento_3": 20,
-        "vento_4": 25,
-        "vento_5": 15,
-        "vento_6": 15
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_act_4": 70,
+        "vento_3": 70,
+        "vento_act_2": 70,
+        "vento_4": 65
       },
       "dropPoolWeights": {
-        "vento_4": 80,
-        "vento_6": 20
+        "vento_act_4": 60,
+        "vento_3": 60,
+        "vento_act_2": 60,
+        "vento_4": 35
       },
+      "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
         "vento",
-        "trovao"
+        "terra",
+        "fogo",
+        "agua"
       ],
       "gemDropWeights": {
-        "vento": 75,
-        "trovao": 25
+        "vento": 25,
+        "terra": 25,
+        "fogo": 25,
+        "agua": 25
       },
-      "maxHp": 950,
-      "attackPower": 65,
-      "defensePower": 45,
-      "speed": 45,
-      "dexterity": 38,
-      "vigor": 38,
-      "color": "#e11d48",
-      "secondaryColor": "#4c0519",
-      "bodyType": "spiky",
-      "horns": "feather",
-      "ears": "wing",
-      "tail": "feather",
-      "eyeStyle": "glowing",
-      "pattern": "stripes",
       "battleBgImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1600&q=80",
+      "element": "vento"
+    },
+    {
+      "id": "adv_custom_1788700169336",
+      "name": "Casca dura e espinhosa",
+      "level": 2,
+      "class": "terra",
+      "genre": "elemental",
+      "maxHp": 278,
+      "attackPower": 19,
+      "defensePower": 22,
+      "speed": 13,
+      "dexterity": 13,
+      "vigor": 17,
+      "deckPoolCardIds": [
+        "terra_3",
+        "terra_1",
+        "terra_ef_2",
+        "terra_ef_3",
+        "terra_2"
+      ],
+      "dropPoolCardIds": [
+        "terra_3",
+        "terra_ef_2"
+      ],
+      "deckPoolWeights": {
+        "terra_3": 70,
+        "terra_1": 70,
+        "terra_ef_2": 70,
+        "terra_ef_3": 70,
+        "terra_2": 70
+      },
+      "dropPoolWeights": {
+        "terra_3": 35,
+        "terra_ef_2": 35
+      },
+      "elementalDropChance": 54,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
+      "element": "terra"
+    },
+    {
+      "id": "adv_custom_1788700305376",
+      "name": "Chama ardente viva",
+      "level": 2,
+      "class": "fogo",
+      "genre": "generico",
+      "maxHp": 163,
+      "attackPower": 18,
+      "defensePower": 10,
+      "speed": 13,
+      "dexterity": 11,
+      "vigor": 13,
+      "deckPoolCardIds": [
+        "fogo_ef_1",
+        "fogo_5",
+        "fogo_ef_3",
+        "fogo_3"
+      ],
+      "dropPoolCardIds": [],
+      "deckPoolWeights": {
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_ef_3": 70,
+        "fogo_3": 70
+      },
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
+      "element": "fogo"
+    },
+    {
+      "id": "adv_custom_1788700416814",
+      "name": "Gota furiosa",
+      "level": 2,
+      "class": "agua",
+      "genre": "generico",
+      "maxHp": 163,
+      "attackPower": 18,
+      "defensePower": 10,
+      "speed": 13,
+      "dexterity": 11,
+      "vigor": 13,
+      "deckPoolCardIds": [
+        "fogo_ef_1",
+        "fogo_5",
+        "fogo_ef_3",
+        "fogo_3"
+      ],
+      "dropPoolCardIds": [],
+      "deckPoolWeights": {
+        "fogo_ef_1": 70,
+        "fogo_5": 70,
+        "fogo_ef_3": 70,
+        "fogo_3": 70
+      },
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
+      "element": "agua"
+    },
+    {
+      "id": "adv_custom_1788700492848",
+      "name": "Pequeno furação",
+      "level": 2,
+      "class": "vento",
+      "genre": "generico",
+      "maxHp": 151,
+      "attackPower": 15,
+      "defensePower": 10,
+      "speed": 17,
+      "dexterity": 13,
+      "vigor": 10,
+      "deckPoolCardIds": [
+        "vento_ef_1",
+        "vento_act_3",
+        "vento_ef_3",
+        "vento_2"
+      ],
+      "dropPoolCardIds": [],
+      "deckPoolWeights": {
+        "vento_ef_1": 70,
+        "vento_act_3": 70,
+        "vento_ef_3": 70,
+        "vento_2": 50
+      },
+      "dropPoolWeights": {},
+      "elementalDropChance": 0,
+      "bossGemVsCardDropChance": 0,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {},
       "element": "vento"
     }
   ],
@@ -3734,12 +3876,12 @@
       {
         "id": "fogo_custom_1786471546577",
         "cardNumber": 173,
-        "name": "Magma maldito",
+        "name": "Chama maldito",
         "class": "fogo",
         "energyCost": 1,
-        "attack": 1000,
-        "defense": 1000,
-        "rarity": "Lendário",
+        "attack": 30,
+        "defense": 25,
+        "rarity": "Comum",
         "maxUses": 20,
         "description": "Carta customizada criada no Modo Admin.",
         "iconName": "Flame",
@@ -3931,12 +4073,12 @@
       {
         "id": "fogo_custom_1786471546577",
         "cardNumber": 173,
-        "name": "Magma maldito",
+        "name": "Chama maldito",
         "class": "fogo",
         "energyCost": 1,
-        "attack": 1000,
-        "defense": 1000,
-        "rarity": "Lendário",
+        "attack": 30,
+        "defense": 25,
+        "rarity": "Comum",
         "maxUses": 20,
         "description": "Carta customizada criada no Modo Admin.",
         "iconName": "Flame",
@@ -4252,12 +4394,12 @@
         {
           "id": "fogo_custom_1786471546577",
           "cardNumber": 173,
-          "name": "Magma maldito",
+          "name": "Chama maldito",
           "class": "fogo",
           "energyCost": 1,
-          "attack": 1000,
-          "defense": 1000,
-          "rarity": "Lendário",
+          "attack": 30,
+          "defense": 25,
+          "rarity": "Comum",
           "maxUses": 20,
           "description": "Carta customizada criada no Modo Admin.",
           "iconName": "Flame",
@@ -4369,103 +4511,78 @@
   "familiars": [
     {
       "id": "fam_1",
-      "name": "Ignis, a Salamandra Astral",
+      "name": "Phogus, a Salamandra Astral",
       "classes": [
-        "fogo",
-        "plasma"
+        "fogo"
       ],
       "level": 1,
       "xp": 0,
-      "maxXp": 100,
       "attackBonus": 5,
       "defenseBonus": 2,
       "dexterityBonus": 3,
       "vigorBonus": 3,
       "speedBonus": 4,
-      "color": "#ef4444",
-      "secondaryColor": "#f97316",
-      "description": "Um espírito ardente que envolve o guardião em chamas sagradas, concedendo elevado ataque e poder elemental.",
-      "imageUrl": ""
+      "description": "Um espírito ardente que envolve o guardião em chamas sagradas, concedendo elevado ataque e poder elemental."
     },
     {
       "id": "fam_2",
       "name": "Sylph, a Fada dos Ventos",
       "classes": [
-        "vento",
-        "luz"
+        "vento"
       ],
       "level": 1,
       "xp": 0,
-      "maxXp": 100,
       "attackBonus": 3,
       "defenseBonus": 3,
       "dexterityBonus": 6,
       "vigorBonus": 2,
       "speedBonus": 6,
-      "color": "#a855f7",
-      "secondaryColor": "#38bdf8",
-      "description": "Um ser brando e ágil que acelera os reflexos e concede esquiva suprema ao seu portador.",
-      "imageUrl": ""
+      "description": "Um ser brando e ágil que acelera os reflexos e concede esquiva suprema ao seu portador."
     },
     {
       "id": "fam_3",
       "name": "Gaea, o Golem de Musgo",
       "classes": [
-        "terra",
-        "metal"
+        "terra"
       ],
       "level": 1,
       "xp": 0,
-      "maxXp": 100,
       "attackBonus": 2,
       "defenseBonus": 8,
       "dexterityBonus": 2,
       "vigorBonus": 6,
       "speedBonus": 2,
-      "color": "#10b981",
-      "secondaryColor": "#64748b",
-      "description": "Um guardião ancestral que endurece a armadura e o vigor do personagem com rochas e raízes puras.",
-      "imageUrl": ""
+      "description": "Um guardião ancestral que endurece a armadura e o vigor do personagem com rochas e raízes puras."
     },
     {
       "id": "fam_4",
       "name": "Naiad, a Ninfa da Maré",
       "classes": [
-        "agua",
-        "trovao"
+        "agua"
       ],
       "level": 1,
       "xp": 0,
-      "maxXp": 100,
       "attackBonus": 4,
       "defenseBonus": 4,
       "dexterityBonus": 4,
       "vigorBonus": 5,
       "speedBonus": 5,
-      "color": "#06b6d4",
-      "secondaryColor": "#3b82f6",
-      "description": "Fluida e tempestuosa, energiza os ataques e canaliza correntes purificadoras.",
-      "imageUrl": ""
+      "description": "Fluida e tempestuosa, energiza os ataques e canaliza correntes purificadoras."
     },
     {
       "id": "fam_5",
       "name": "Umbra, a Coruja Etérea",
       "classes": [
-        "trevas",
-        "luz"
+        "trevas"
       ],
       "level": 1,
       "xp": 0,
-      "maxXp": 100,
       "attackBonus": 6,
       "defenseBonus": 3,
       "dexterityBonus": 5,
       "vigorBonus": 3,
       "speedBonus": 5,
-      "color": "#8b5cf6",
-      "secondaryColor": "#f59e0b",
-      "description": "Uma egrégora mística capaz de revelações da noite e golpes de precisão sombria.",
-      "imageUrl": ""
+      "description": "Uma egrégora mística capaz de revelações da noite e golpes de precisão sombria."
     }
   ],
   "gems": [
@@ -4649,13 +4766,18 @@
   "audioConfig": {
     "bgm": {
       "defaultBgm": "",
-      "startScreen": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Sovereign-Tides.mp3",
-      "worldSelect": "",
+      "startScreen": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/start-screem/Sovereign-Tides.mp3",
+      "worldSelect": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/mainscreem/Primal-Ground.mp3",
       "menu": "",
       "map": "",
       "battle": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental-Battle-Wrath.mp3",
-      "boss": "",
-      "worldTracks": {}
+      "boss": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Elemental%20Wrath.mp3",
+      "worldTracks": {
+        "1": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
+        "2": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Root%20and%20Reed.mp3",
+        "3": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Crystal-Currents.mp3",
+        "4": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Zephyr-Heights.mp3"
+      }
     },
     "sfx": {
       "cardClick": "",
