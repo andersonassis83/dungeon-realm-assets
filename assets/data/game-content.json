@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-07T16:00:45.452Z",
+  "exportedAt": "2026-09-07T21:10:16.309Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 60,
@@ -1341,6 +1341,12 @@
       "level": 1,
       "class": "terra",
       "genre": "generico",
+      "maxHp": 160,
+      "attackPower": 12,
+      "defensePower": 8,
+      "speed": 12,
+      "dexterity": 8,
+      "vigor": 8,
       "deckPoolCardIds": [
         "terra_1",
         "terra_2",
@@ -1352,25 +1358,19 @@
         "terra_2": 30,
         "terra_5": 20
       },
-      "maxHp": 160,
-      "attackPower": 12,
-      "defensePower": 8,
-      "speed": 12,
-      "dexterity": 8,
-      "vigor": 8,
-      "color": "#059669",
-      "secondaryColor": "#047857",
-      "bodyType": "round",
-      "horns": "feather",
-      "ears": "leaf",
-      "tail": "cattail",
-      "eyeStyle": "cute",
-      "pattern": "belly",
+      "dropPoolWeights": {},
+      "elementalDropChance": 60,
+      "bossGemVsCardDropChance": 50,
+      "gemDropPoolIds": [],
+      "gemDropWeights": {
+        "terra": 10
+      },
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
       "element": "terra"
     },
     {
       "id": "adv_besouro",
-      "name": "Besouro Tóxico",
+      "name": "Besouro de pedra Tóxico",
       "level": 2,
       "class": "terra",
       "genre": "generico",
@@ -1398,6 +1398,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
       "element": "terra"
     },
     {
@@ -1438,6 +1439,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
       "element": "terra"
     },
     {
@@ -1494,6 +1496,7 @@
         "fogo": 25,
         "vento": 25
       },
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
       "element": "terra"
     },
     {
@@ -1529,6 +1532,7 @@
       "gemDropWeights": {
         "fogo": 10
       },
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1569,6 +1573,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1625,6 +1630,7 @@
         "agua": 25,
         "vento": 25
       },
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1657,6 +1663,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
       "element": "agua"
     },
     {
@@ -1713,6 +1720,7 @@
         "fogo": 25,
         "vento": 25
       },
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true",
       "element": "agua"
     },
     {
@@ -1793,6 +1801,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1953,6 +1962,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
       "element": "agua"
     },
     {
@@ -2226,6 +2236,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
       "element": "fogo"
     },
     {
@@ -2258,6 +2269,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
       "element": "agua"
     },
     {
@@ -4959,16 +4971,16 @@
       "id": "Character_terra",
       "name": "Flora, Guardiã da Terra",
       "class": "terra",
-      "maxHp": 280,
-      "currentHp": 280,
+      "maxHp": 232,
+      "currentHp": 232,
       "shield": 0,
       "maxEnergy": 3,
       "currentEnergy": 3,
-      "attackPower": 12,
-      "defensePower": 20,
-      "dexterity": 16,
-      "vigor": 14,
-      "speed": 32,
+      "attackPower": 19,
+      "defensePower": 22,
+      "dexterity": 15,
+      "vigor": 20,
+      "speed": 15,
       "statusEffects": [],
       "color": "#10b981",
       "secondaryColor": "#047857",
@@ -4995,6 +5007,51 @@
           "sellPrice": 15
         },
         {
+          "id": "terra_act_9",
+          "cardNumber": 124,
+          "name": "Martelo Sísmiço",
+          "class": "terra",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Golpe telúrico pesado que causa abalos profundos.",
+          "iconName": "Shield",
+          "bgGradient": "from-green-600 to-emerald-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "terra_act_10",
+          "cardNumber": 125,
+          "name": "Fissura Tectônica",
+          "class": "terra",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Rasga o solo abaixo do oponente com força esmagadora.",
+          "iconName": "ShieldPlus",
+          "bgGradient": "from-emerald-600 to-teal-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "terra_act_11",
+          "cardNumber": 126,
+          "name": "Escudo do Titã",
+          "class": "terra",
+          "energyCost": 2,
+          "attack": 100,
+          "defense": 105,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Proteção monumental forjada pela própria rocha-mãe.",
+          "iconName": "Shield",
+          "bgGradient": "from-teal-600 to-green-800",
+          "sellPrice": 35
+        },
+        {
           "id": "terra_act_2",
           "cardNumber": 119,
           "name": "Impacto de Rocha",
@@ -5008,59 +5065,31 @@
           "iconName": "Shield",
           "bgGradient": "from-green-600 to-emerald-800",
           "sellPrice": 15
-        },
-        {
-          "id": "terra_act_3",
-          "cardNumber": 120,
-          "name": "Casca de Carvalho",
-          "class": "terra",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Revestimento de carvalho firme protegendo o corpo.",
-          "iconName": "Shield",
-          "bgGradient": "from-emerald-600 to-green-800",
-          "sellPrice": 15
-        },
-        {
-          "id": "terra_act_4",
-          "cardNumber": 121,
-          "name": "Escudo de Argila",
-          "class": "terra",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Camada de argila mística que absorve pancadas diretas.",
-          "iconName": "ShieldPlus",
-          "bgGradient": "from-stone-600 to-emerald-800",
-          "sellPrice": 15
         }
       ],
       "starterDeckCardIds": [
         "terra_7",
-        "terra_act_2",
-        "terra_act_3",
-        "terra_act_4"
-      ]
+        "terra_act_9",
+        "terra_act_10",
+        "terra_act_11",
+        "terra_act_2"
+      ],
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/heros-character/h-terra.png?raw=true"
     },
     {
       "id": "Character_agua",
       "name": "Kaito, Mestre das Marés",
       "class": "agua",
-      "maxHp": 220,
-      "currentHp": 220,
+      "maxHp": 213,
+      "currentHp": 213,
       "shield": 0,
       "maxEnergy": 3,
       "currentEnergy": 3,
-      "attackPower": 18,
-      "defensePower": 12,
-      "dexterity": 22,
-      "vigor": 18,
-      "speed": 52,
+      "attackPower": 20,
+      "defensePower": 19,
+      "dexterity": 18,
+      "vigor": 21,
+      "speed": 17,
       "statusEffects": [],
       "color": "#06b6d4",
       "secondaryColor": "#0e7490",
@@ -5087,6 +5116,51 @@
           "sellPrice": 15
         },
         {
+          "id": "agua_2",
+          "cardNumber": 14,
+          "name": "Tsunami Veloz",
+          "class": "agua",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Onda gigante avassaladora que devasta defesas.",
+          "iconName": "Waves",
+          "bgGradient": "from-blue-600 to-indigo-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "agua_act_10",
+          "cardNumber": 144,
+          "name": "Lança Glacial",
+          "class": "agua",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Espinho congelado afiado disparado a alta velocidade.",
+          "iconName": "Droplet",
+          "bgGradient": "from-cyan-500 to-blue-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "agua_act_11",
+          "cardNumber": 145,
+          "name": "Muralha de Glaciar",
+          "class": "agua",
+          "energyCost": 2,
+          "attack": 100,
+          "defense": 105,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Bloco de gelo milenar impenetrável erguido na frente do conjurador.",
+          "iconName": "Shield",
+          "bgGradient": "from-sky-600 to-indigo-800",
+          "sellPrice": 35
+        },
+        {
           "id": "agua_act_2",
           "cardNumber": 137,
           "name": "Jacto de Água",
@@ -5100,59 +5174,31 @@
           "iconName": "Droplet",
           "bgGradient": "from-cyan-600 to-blue-800",
           "sellPrice": 15
-        },
-        {
-          "id": "agua_act_3",
-          "cardNumber": 138,
-          "name": "Bolha Protetora",
-          "class": "agua",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Esfera aquosa que amortece impactos frontais.",
-          "iconName": "Shield",
-          "bgGradient": "from-teal-600 to-cyan-800",
-          "sellPrice": 15
-        },
-        {
-          "id": "agua_act_4",
-          "cardNumber": 139,
-          "name": "Barreira de Espuma",
-          "class": "agua",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Espuma densa e mística reduzindo o dano recebido.",
-          "iconName": "ShieldPlus",
-          "bgGradient": "from-blue-500 to-indigo-800",
-          "sellPrice": 15
         }
       ],
       "starterDeckCardIds": [
         "agua_3",
-        "agua_act_2",
-        "agua_act_3",
-        "agua_act_4"
-      ]
+        "agua_2",
+        "agua_act_10",
+        "agua_act_11",
+        "agua_act_2"
+      ],
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/heros-character/h-agua.png?raw=true"
     },
     {
       "id": "Character_fogo",
       "name": "Ignis, O Feroz",
       "class": "fogo",
-      "maxHp": 210,
-      "currentHp": 210,
+      "maxHp": 184,
+      "currentHp": 184,
       "shield": 0,
       "maxEnergy": 3,
       "currentEnergy": 3,
-      "attackPower": 22,
-      "defensePower": 10,
-      "dexterity": 18,
-      "vigor": 25,
-      "speed": 45,
+      "attackPower": 25,
+      "defensePower": 15,
+      "dexterity": 17,
+      "vigor": 22,
+      "speed": 19,
       "statusEffects": [],
       "color": "#ef4444",
       "secondaryColor": "#991b1b",
@@ -5179,6 +5225,51 @@
           "sellPrice": 15
         },
         {
+          "id": "fogo_4",
+          "cardNumber": 4,
+          "name": "Explosão Chamejante",
+          "class": "fogo",
+          "energyCost": 2,
+          "attack": 85,
+          "defense": 10,
+          "rarity": "Raro",
+          "maxUses": 2,
+          "description": "Lança uma bola de fogo explosiva causando alto dano crítico.",
+          "iconName": "Flame",
+          "bgGradient": "from-amber-600 via-orange-700 to-red-900",
+          "sellPrice": 75
+        },
+        {
+          "id": "fogo_act_10",
+          "cardNumber": 107,
+          "name": "Meteoro Flamejante",
+          "class": "fogo",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Impacto meteórico trazendo brasas e rochas incandescentes.",
+          "iconName": "Zap",
+          "bgGradient": "from-amber-600 to-red-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "fogo_act_11",
+          "cardNumber": 108,
+          "name": "Fortificação Solar",
+          "class": "fogo",
+          "energyCost": 2,
+          "attack": 100,
+          "defense": 105,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Escudo de raios solares concentrados garantindo alta guarda.",
+          "iconName": "Shield",
+          "bgGradient": "from-yellow-600 to-orange-800",
+          "sellPrice": 35
+        },
+        {
           "id": "fogo_2",
           "cardNumber": 2,
           "name": "Chifre de Fogo",
@@ -5192,75 +5283,31 @@
           "iconName": "Zap",
           "bgGradient": "from-amber-500 to-orange-700",
           "sellPrice": 15
-        },
-        {
-          "id": "fogo_act_3",
-          "cardNumber": 101,
-          "name": "Escudo de Brasa",
-          "class": "fogo",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Barreira leve de brasas incandescentes reduzindo o impacto.",
-          "iconName": "Shield",
-          "bgGradient": "from-orange-600 to-red-800",
-          "sellPrice": 15
-        },
-        {
-          "id": "fogo_act_4",
-          "cardNumber": 102,
-          "name": "Barreira Incandescente",
-          "class": "fogo",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Muralha de calor defensiva para conter avanços inimigos.",
-          "iconName": "ShieldPlus",
-          "bgGradient": "from-red-600 to-amber-800",
-          "sellPrice": 15
-        },
-        {
-          "id": "fogo_custom_1786471546577",
-          "cardNumber": 173,
-          "name": "Chama maldito",
-          "class": "fogo",
-          "energyCost": 1,
-          "attack": 30,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 20,
-          "description": "Carta customizada criada no Modo Admin.",
-          "iconName": "Flame",
-          "bgGradient": "from-amber-600 via-orange-700 to-red-900",
-          "sellPrice": 15
         }
       ],
       "starterDeckCardIds": [
         "fogo_1",
-        "fogo_2",
-        "fogo_act_3",
-        "fogo_act_4",
-        "fogo_custom_1786471546577"
-      ]
+        "fogo_4",
+        "fogo_act_10",
+        "fogo_act_11",
+        "fogo_2"
+      ],
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/heros-character/h-fogo.png?raw=true"
     },
     {
       "id": "Character_vento",
       "name": "Zephyr, Guardião do Ar",
       "class": "vento",
-      "maxHp": 195,
-      "currentHp": 195,
+      "maxHp": 170,
+      "currentHp": 170,
       "shield": 0,
       "maxEnergy": 3,
       "currentEnergy": 3,
-      "attackPower": 20,
-      "defensePower": 10,
-      "dexterity": 28,
-      "vigor": 20,
-      "speed": 60,
+      "attackPower": 21,
+      "defensePower": 15,
+      "dexterity": 21,
+      "vigor": 16,
+      "speed": 23,
       "statusEffects": [],
       "color": "#a855f7",
       "secondaryColor": "#6b21a8",
@@ -5287,6 +5334,51 @@
           "sellPrice": 15
         },
         {
+          "id": "vento_4",
+          "cardNumber": 22,
+          "name": "Tornado Furioso",
+          "class": "vento",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Ciclone avassalador que tritura as defesas oponentes.",
+          "iconName": "Zap",
+          "bgGradient": "from-violet-600 to-fuchsia-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "vento_act_10",
+          "cardNumber": 161,
+          "name": "Lâminas Aéreas",
+          "class": "vento",
+          "energyCost": 2,
+          "attack": 105,
+          "defense": 100,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Múltiplas lâminas de pressão atmosférica cortando o espaço.",
+          "iconName": "Feather",
+          "bgGradient": "from-pink-600 to-purple-800",
+          "sellPrice": 35
+        },
+        {
+          "id": "vento_act_11",
+          "cardNumber": 162,
+          "name": "Muralha de Ciclone",
+          "class": "vento",
+          "energyCost": 2,
+          "attack": 100,
+          "defense": 105,
+          "rarity": "Raro",
+          "maxUses": 3,
+          "description": "Barreira em espiral que repele e amortece projéteis.",
+          "iconName": "Shield",
+          "bgGradient": "from-purple-600 to-fuchsia-800",
+          "sellPrice": 35
+        },
+        {
           "id": "vento_act_2",
           "cardNumber": 156,
           "name": "Rajada de Vento",
@@ -5300,44 +5392,16 @@
           "iconName": "Wind",
           "bgGradient": "from-fuchsia-600 to-purple-800",
           "sellPrice": 15
-        },
-        {
-          "id": "vento_act_3",
-          "cardNumber": 157,
-          "name": "Manto do Vento",
-          "class": "vento",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Correnteza leve ao redor do corpo para desviar ataques.",
-          "iconName": "Shield",
-          "bgGradient": "from-purple-600 to-pink-800",
-          "sellPrice": 15
-        },
-        {
-          "id": "vento_act_4",
-          "cardNumber": 158,
-          "name": "Barreira Aérea",
-          "class": "vento",
-          "energyCost": 1,
-          "attack": 20,
-          "defense": 25,
-          "rarity": "Comum",
-          "maxUses": 4,
-          "description": "Barreira pressurizada de ar reduzindo impactos.",
-          "iconName": "ShieldPlus",
-          "bgGradient": "from-violet-600 to-fuchsia-800",
-          "sellPrice": 15
         }
       ],
       "starterDeckCardIds": [
         "vento_3",
-        "vento_act_2",
-        "vento_act_3",
-        "vento_act_4"
-      ]
+        "vento_4",
+        "vento_act_10",
+        "vento_act_11",
+        "vento_act_2"
+      ],
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/heros-character/h-vento.png?raw=true"
     }
   ],
   "familiars": [
