@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-10T12:07:08.692Z",
+  "exportedAt": "2026-09-10T14:59:16.954Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 60,
@@ -25,6 +25,7 @@
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/terra.png?raw=true",
       "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ironwood%20Deal.mp3",
       "initiallyUnlocked": true,
+      "familiarDropPoolIds": [],
       "stages": [
         {
           "id": 101,
@@ -38,6 +39,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-1",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -59,6 +61,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-2",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -80,6 +83,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-3",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -101,6 +105,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-4",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -114,20 +119,21 @@
           "id": 105,
           "worldId": 1,
           "stageNumber": 5,
-          "name": "Fase 5: Entim Ancestral",
-          "description": "Confronto contra Entim Ancestral (Nível 2).",
+          "name": "Fase 5: Árvore Ancestral",
+          "description": "Confronto contra Árvore Ancestral (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "terra-5",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_entim",
           "adversaryData": {
             "id": "adv_entim"
           },
           "enemy": {
             "id": "adv_entim",
-            "name": "Entim Ancestral",
+            "name": "Árvore Ancestral",
             "class": "terra"
           }
         },
@@ -143,6 +149,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-6",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -164,6 +171,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-7",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -185,6 +193,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-8",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -206,6 +215,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-9",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -219,20 +229,21 @@
           "id": 110,
           "worldId": 1,
           "stageNumber": 10,
-          "name": "Fase 10: Saurio de Musgo",
-          "description": "Confronto contra Saurio de Musgo (Nível 2).",
+          "name": "Fase 10: Rocha desgastada",
+          "description": "Confronto contra Rocha desgastada (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "terra-10",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
+          "adversaryId": "adv_saurio",
           "adversaryData": {
             "id": "adv_saurio"
           },
           "enemy": {
             "id": "adv_saurio",
-            "name": "Saurio de Musgo",
+            "name": "Rocha desgastada",
             "class": "terra"
           }
         },
@@ -240,20 +251,21 @@
           "id": 111,
           "worldId": 1,
           "stageNumber": 11,
-          "name": "Fase 11: Besouro Tóxico",
-          "description": "Confronto contra Besouro Tóxico (Nível 2).",
+          "name": "Fase 11: Lobo de pedra Tóxico",
+          "description": "Confronto contra Lobo de pedra Tóxico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "terra-11",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
+          "adversaryId": "adv_besouro",
           "adversaryData": {
             "id": "adv_besouro"
           },
           "enemy": {
             "id": "adv_besouro",
-            "name": "Besouro Tóxico",
+            "name": "Lobo de pedra Tóxico",
             "class": "terra"
           }
         },
@@ -261,20 +273,21 @@
           "id": 112,
           "worldId": 1,
           "stageNumber": 12,
-          "name": "Fase 12: Besouro Tóxico",
-          "description": "Confronto contra Besouro Tóxico (Nível 2).",
+          "name": "Fase 12: Lobo de pedra Tóxico",
+          "description": "Confronto contra Lobo de pedra Tóxico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "terra-12",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
+          "adversaryId": "adv_besouro",
           "adversaryData": {
             "id": "adv_besouro"
           },
           "enemy": {
             "id": "adv_besouro",
-            "name": "Besouro Tóxico",
+            "name": "Lobo de pedra Tóxico",
             "class": "terra"
           }
         },
@@ -282,20 +295,21 @@
           "id": 113,
           "worldId": 1,
           "stageNumber": 13,
-          "name": "Fase 13: Besouro Tóxico",
-          "description": "Confronto contra Besouro Tóxico (Nível 2).",
+          "name": "Fase 13: Lobo de pedra Tóxico",
+          "description": "Confronto contra Lobo de pedra Tóxico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "terra-13",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
+          "adversaryId": "adv_besouro",
           "adversaryData": {
             "id": "adv_besouro"
           },
           "enemy": {
             "id": "adv_besouro",
-            "name": "Besouro Tóxico",
+            "name": "Lobo de pedra Tóxico",
             "class": "terra"
           }
         },
@@ -303,20 +317,21 @@
           "id": 114,
           "worldId": 1,
           "stageNumber": 14,
-          "name": "Fase 14: Besouro Tóxico",
-          "description": "Confronto contra Besouro Tóxico (Nível 2).",
+          "name": "Fase 14: Lobo de pedra Tóxico",
+          "description": "Confronto contra Lobo de pedra Tóxico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "terra-14",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
+          "adversaryId": "adv_besouro",
           "adversaryData": {
             "id": "adv_besouro"
           },
           "enemy": {
             "id": "adv_besouro",
-            "name": "Besouro Tóxico",
+            "name": "Lobo de pedra Tóxico",
             "class": "terra"
           }
         },
@@ -332,6 +347,7 @@
           "rewardExp": 40,
           "backgroundTheme": "terra-15",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta3.png?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -355,215 +371,226 @@
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/vulcao.jpg?raw=true",
       "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Ashen-Throne.mp3",
       "initiallyUnlocked": true,
+      "familiarDropPoolIds": [],
       "stages": [
         {
           "id": 201,
           "worldId": 2,
           "stageNumber": 1,
-          "name": "Fase 1: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 1: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-1",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 202,
           "worldId": 2,
           "stageNumber": 2,
-          "name": "Fase 2: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 2: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-2",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 203,
           "worldId": 2,
           "stageNumber": 3,
-          "name": "Fase 3: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 3: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-3",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 204,
           "worldId": 2,
           "stageNumber": 4,
-          "name": "Fase 4: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 4: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-4",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 205,
           "worldId": 2,
           "stageNumber": 5,
-          "name": "Fase 5: Fênix de Cinza",
-          "description": "Confronto contra Fênix de Cinza (Nível 2).",
+          "name": "Fase 5: Mantis de Brasas",
+          "description": "Confronto contra Mantis de Brasas (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "fogo-5",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_mantis_brasas",
           "adversaryData": {
-            "id": "adv_fenix"
+            "id": "adv_mantis_brasas"
           },
           "enemy": {
-            "id": "adv_fenix",
-            "name": "Fênix de Cinza",
-            "class": "terra"
+            "id": "adv_mantis_brasas",
+            "name": "Mantis de Brasas",
+            "class": "fogo"
           }
         },
         {
           "id": 206,
           "worldId": 2,
           "stageNumber": 6,
-          "name": "Fase 6: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 6: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-6",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 207,
           "worldId": 2,
           "stageNumber": 7,
-          "name": "Fase 7: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 7: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-7",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 208,
           "worldId": 2,
           "stageNumber": 8,
-          "name": "Fase 8: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 8: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-8",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 209,
           "worldId": 2,
           "stageNumber": 9,
-          "name": "Fase 9: Salamandra Ígnea",
-          "description": "Confronto contra Salamandra Ígnea (Nível 1).",
+          "name": "Fase 9: Salamandra de fogo",
+          "description": "Confronto contra Salamandra de fogo (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "fogo-9",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
+          "adversaryId": "adv_salamandra",
           "adversaryData": {
             "id": "adv_salamandra"
           },
           "enemy": {
             "id": "adv_salamandra",
-            "name": "Salamandra Ígnea",
-            "class": "terra"
+            "name": "Salamandra de fogo",
+            "class": "fogo"
           }
         },
         {
           "id": 210,
           "worldId": 2,
           "stageNumber": 10,
-          "name": "Fase 10: Cerberus da Lava",
-          "description": "Confronto contra Cerberus da Lava (Nível 2).",
+          "name": "Fase 10: Pepita de Lava",
+          "description": "Confronto contra Pepita de Lava (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "fogo-10",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_cerberus",
           "adversaryData": {
             "id": "adv_cerberus"
           },
           "enemy": {
             "id": "adv_cerberus",
-            "name": "Cerberus da Lava",
-            "class": "terra"
+            "name": "Pepita de Lava",
+            "class": "fogo"
           }
         },
         {
@@ -578,13 +605,14 @@
           "rewardExp": 80,
           "backgroundTheme": "fogo-11",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
             "id": "adv_custom_1788700305376"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "terra"
+            "class": "fogo"
           }
         },
         {
@@ -599,13 +627,14 @@
           "rewardExp": 80,
           "backgroundTheme": "fogo-12",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
             "id": "adv_custom_1788700305376"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "terra"
+            "class": "fogo"
           }
         },
         {
@@ -620,13 +649,14 @@
           "rewardExp": 80,
           "backgroundTheme": "fogo-13",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
             "id": "adv_custom_1788700305376"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "terra"
+            "class": "fogo"
           }
         },
         {
@@ -641,13 +671,14 @@
           "rewardExp": 80,
           "backgroundTheme": "fogo-14",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
             "id": "adv_custom_1788700305376"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "terra"
+            "class": "fogo"
           }
         },
         {
@@ -662,13 +693,14 @@
           "rewardExp": 460,
           "backgroundTheme": "fogo-15",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava3.jpg?raw=true",
+          "adversaryId": "adv_pyros",
           "adversaryData": {
             "id": "adv_pyros"
           },
           "enemy": {
             "id": "adv_pyros",
             "name": "Pyros O Devorador",
-            "class": "terra"
+            "class": "fogo"
           }
         }
       ]
@@ -685,152 +717,160 @@
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/cachoeira.jpg?raw=true",
       "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Crystal-Currents.mp3",
       "initiallyUnlocked": true,
+      "familiarDropPoolIds": [],
       "stages": [
         {
           "id": 301,
           "worldId": 3,
           "stageNumber": 1,
-          "name": "Fase 1: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 1: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-1",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 302,
           "worldId": 3,
           "stageNumber": 2,
-          "name": "Fase 2: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 2: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-2",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 303,
           "worldId": 3,
           "stageNumber": 3,
-          "name": "Fase 3: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 3: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-3",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 304,
           "worldId": 3,
           "stageNumber": 4,
-          "name": "Fase 4: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 4: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-4",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 305,
           "worldId": 3,
           "stageNumber": 5,
-          "name": "Fase 5: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 5: Líquido lamacento",
+          "description": "Confronto contra Líquido lamacento (Nível 2).",
           "isBoss": false,
-          "recommendedPower": 40,
-          "rewardCoins": 25,
-          "rewardExp": 40,
+          "recommendedPower": 80,
+          "rewardCoins": 130,
+          "rewardExp": 180,
           "backgroundTheme": "agua-5",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_tubarao",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_tubarao"
           },
           "enemy": {
-            "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "id": "adv_tubarao",
+            "name": "Líquido lamacento",
+            "class": "agua"
           }
         },
         {
           "id": 306,
           "worldId": 3,
           "stageNumber": 6,
-          "name": "Fase 6: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 6: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-6",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 307,
           "worldId": 3,
           "stageNumber": 7,
-          "name": "Fase 7: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 7: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-7",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
@@ -845,6 +885,7 @@
           "rewardExp": 40,
           "backgroundTheme": "agua-8",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -858,126 +899,132 @@
           "id": 309,
           "worldId": 3,
           "stageNumber": 9,
-          "name": "Fase 9: Água viva furiosa",
-          "description": "Confronto contra Água viva furiosa (Nível 1).",
+          "name": "Fase 9: Gota furiosa",
+          "description": "Confronto contra Gota furiosa (Nível 1).",
           "isBoss": false,
           "recommendedPower": 40,
           "rewardCoins": 25,
           "rewardExp": 40,
           "backgroundTheme": "agua-9",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
+          "adversaryId": "adv_lula_mares",
           "adversaryData": {
             "id": "adv_lula_mares"
           },
           "enemy": {
             "id": "adv_lula_mares",
-            "name": "Água viva furiosa",
-            "class": "terra"
+            "name": "Gota furiosa",
+            "class": "agua"
           }
         },
         {
           "id": 310,
           "worldId": 3,
           "stageNumber": 10,
-          "name": "Fase 10: Gota furiosa",
-          "description": "Confronto contra Gota furiosa (Nível 2).",
+          "name": "Fase 10: Pássaro dos rios",
+          "description": "Confronto contra Pássaro dos rios (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
-          "rewardCoins": 50,
-          "rewardExp": 80,
+          "rewardCoins": 130,
+          "rewardExp": 180,
           "backgroundTheme": "agua-10",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_tartaruga",
           "adversaryData": {
-            "id": "adv_custom_1788700416814"
+            "id": "adv_tartaruga"
           },
           "enemy": {
-            "id": "adv_custom_1788700416814",
-            "name": "Gota furiosa",
-            "class": "terra"
+            "id": "adv_tartaruga",
+            "name": "Pássaro dos rios",
+            "class": "agua"
           }
         },
         {
           "id": 311,
           "worldId": 3,
           "stageNumber": 11,
-          "name": "Fase 11: Gota furiosa",
-          "description": "Confronto contra Gota furiosa (Nível 2).",
+          "name": "Fase 11: Lagarto hídrico",
+          "description": "Confronto contra Lagarto hídrico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "agua-11",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
             "id": "adv_custom_1788700416814"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
-            "name": "Gota furiosa",
-            "class": "terra"
+            "name": "Lagarto hídrico",
+            "class": "agua"
           }
         },
         {
           "id": 312,
           "worldId": 3,
           "stageNumber": 12,
-          "name": "Fase 12: Gota furiosa",
-          "description": "Confronto contra Gota furiosa (Nível 2).",
+          "name": "Fase 12: Lagarto hídrico",
+          "description": "Confronto contra Lagarto hídrico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "agua-12",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
             "id": "adv_custom_1788700416814"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
-            "name": "Gota furiosa",
-            "class": "terra"
+            "name": "Lagarto hídrico",
+            "class": "agua"
           }
         },
         {
           "id": 313,
           "worldId": 3,
           "stageNumber": 13,
-          "name": "Fase 13: Gota furiosa",
-          "description": "Confronto contra Gota furiosa (Nível 2).",
+          "name": "Fase 13: Lagarto hídrico",
+          "description": "Confronto contra Lagarto hídrico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "agua-13",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
             "id": "adv_custom_1788700416814"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
-            "name": "Gota furiosa",
-            "class": "terra"
+            "name": "Lagarto hídrico",
+            "class": "agua"
           }
         },
         {
           "id": 314,
           "worldId": 3,
           "stageNumber": 14,
-          "name": "Fase 14: Gota furiosa",
-          "description": "Confronto contra Gota furiosa (Nível 2).",
+          "name": "Fase 14: Lagarto hídrico",
+          "description": "Confronto contra Lagarto hídrico (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "agua-14",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
+          "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
             "id": "adv_custom_1788700416814"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
-            "name": "Gota furiosa",
-            "class": "terra"
+            "name": "Lagarto hídrico",
+            "class": "agua"
           }
         },
         {
@@ -992,6 +1039,7 @@
           "rewardExp": 40,
           "backgroundTheme": "agua-15",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira3.jpg?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -1015,6 +1063,7 @@
       "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/worlds/montanha.jpg?raw=true",
       "bgmUrl": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/worlds/Thunderous%20Siege.mp3",
       "initiallyUnlocked": true,
+      "familiarDropPoolIds": [],
       "stages": [
         {
           "id": 401,
@@ -1028,13 +1077,14 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-1",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
@@ -1049,13 +1099,14 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-2",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
@@ -1070,13 +1121,14 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-3",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
@@ -1091,34 +1143,36 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-4",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
           "id": 405,
           "worldId": 4,
           "stageNumber": 5,
-          "name": "Fase 5: Quimera Cósmica",
-          "description": "Confronto contra Quimera Cósmica (Nível 2).",
+          "name": "Fase 5: Vendaval violento",
+          "description": "Confronto contra Vendaval violento (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "vento-5",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_quimera_astro",
           "adversaryData": {
             "id": "adv_quimera_astro"
           },
           "enemy": {
             "id": "adv_quimera_astro",
-            "name": "Quimera Cósmica",
-            "class": "terra"
+            "name": "Vendaval violento",
+            "class": "vento"
           }
         },
         {
@@ -1133,13 +1187,14 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-6",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
@@ -1154,13 +1209,14 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-7",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_griffin",
           "adversaryData": {
             "id": "adv_griffin"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "terra"
+            "class": "vento"
           }
         },
         {
@@ -1175,6 +1231,7 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-8",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -1196,6 +1253,7 @@
           "rewardExp": 40,
           "backgroundTheme": "vento-9",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
+          "adversaryId": "adv_sprout",
           "adversaryData": {
             "id": "adv_sprout"
           },
@@ -1209,126 +1267,132 @@
           "id": 410,
           "worldId": 4,
           "stageNumber": 10,
-          "name": "Fase 10: Dragão Nebuloso",
-          "description": "Confronto contra Dragão Nebuloso (Nível 2).",
+          "name": "Fase 10: Coruja Nebulosa",
+          "description": "Confronto contra Coruja Nebulosa (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 130,
           "rewardExp": 180,
           "backgroundTheme": "vento-10",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
+          "adversaryId": "adv_dragao_nebuloso",
           "adversaryData": {
             "id": "adv_dragao_nebuloso"
           },
           "enemy": {
             "id": "adv_dragao_nebuloso",
-            "name": "Dragão Nebuloso",
-            "class": "terra"
+            "name": "Coruja Nebulosa",
+            "class": "vento"
           }
         },
         {
           "id": 411,
           "worldId": 4,
           "stageNumber": 11,
-          "name": "Fase 11: Seraphim de Luz",
-          "description": "Confronto contra Seraphim de Luz (Nível 2).",
+          "name": "Fase 11: Ave dos ventos",
+          "description": "Confronto contra Ave dos ventos (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "vento-11",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
+          "adversaryId": "adv_seraphim",
           "adversaryData": {
             "id": "adv_seraphim"
           },
           "enemy": {
             "id": "adv_seraphim",
-            "name": "Seraphim de Luz",
-            "class": "terra"
+            "name": "Ave dos ventos",
+            "class": "vento"
           }
         },
         {
           "id": 412,
           "worldId": 4,
           "stageNumber": 12,
-          "name": "Fase 12: Seraphim de Luz",
-          "description": "Confronto contra Seraphim de Luz (Nível 2).",
+          "name": "Fase 12: Ave dos ventos",
+          "description": "Confronto contra Ave dos ventos (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "vento-12",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
+          "adversaryId": "adv_seraphim",
           "adversaryData": {
             "id": "adv_seraphim"
           },
           "enemy": {
             "id": "adv_seraphim",
-            "name": "Seraphim de Luz",
-            "class": "terra"
+            "name": "Ave dos ventos",
+            "class": "vento"
           }
         },
         {
           "id": 413,
           "worldId": 4,
           "stageNumber": 13,
-          "name": "Fase 13: Seraphim de Luz",
-          "description": "Confronto contra Seraphim de Luz (Nível 2).",
+          "name": "Fase 13: Ave dos ventos",
+          "description": "Confronto contra Ave dos ventos (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "vento-13",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
+          "adversaryId": "adv_seraphim",
           "adversaryData": {
             "id": "adv_seraphim"
           },
           "enemy": {
             "id": "adv_seraphim",
-            "name": "Seraphim de Luz",
-            "class": "terra"
+            "name": "Ave dos ventos",
+            "class": "vento"
           }
         },
         {
           "id": 414,
           "worldId": 4,
           "stageNumber": 14,
-          "name": "Fase 14: Seraphim de Luz",
-          "description": "Confronto contra Seraphim de Luz (Nível 2).",
+          "name": "Fase 14: Ave dos ventos",
+          "description": "Confronto contra Ave dos ventos (Nível 2).",
           "isBoss": false,
           "recommendedPower": 80,
           "rewardCoins": 50,
           "rewardExp": 80,
           "backgroundTheme": "vento-14",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
+          "adversaryId": "adv_seraphim",
           "adversaryData": {
             "id": "adv_seraphim"
           },
           "enemy": {
             "id": "adv_seraphim",
-            "name": "Seraphim de Luz",
-            "class": "terra"
+            "name": "Ave dos ventos",
+            "class": "vento"
           }
         },
         {
           "id": 415,
           "worldId": 4,
           "stageNumber": 15,
-          "name": "Fase 15: CHEFÃO - Chronos Astral",
-          "description": "Confronto contra Chronos Astral (Nível 4).",
+          "name": "Fase 15: CHEFÃO - Tornado obscuro",
+          "description": "Confronto contra Tornado obscuro (Nível 4).",
           "isBoss": true,
           "recommendedPower": 160,
           "rewardCoins": 300,
           "rewardExp": 460,
           "backgroundTheme": "vento-15",
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha3.jpg?raw=true",
+          "adversaryId": "adv_chronos",
           "adversaryData": {
             "id": "adv_chronos"
           },
           "enemy": {
             "id": "adv_chronos",
-            "name": "Chronos Astral",
-            "class": "terra"
+            "name": "Tornado obscuro",
+            "class": "vento"
           }
         }
       ]
@@ -1795,7 +1859,7 @@
     },
     {
       "id": "adv_fenix",
-      "name": "Fênix de Cinza",
+      "name": "Céberus do fogo negro",
       "level": 2,
       "class": "fogo",
       "genre": "elemental",
@@ -1831,6 +1895,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo2.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1876,7 +1941,7 @@
     },
     {
       "id": "adv_tartaruga",
-      "name": "Tartaruga do Abismo",
+      "name": "Pássaro dos rios",
       "level": 2,
       "class": "agua",
       "genre": "elemental",
@@ -1912,6 +1977,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua2.png?raw=true",
       "element": "agua"
     },
     {
@@ -1952,7 +2018,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua3.png?raw=true",
       "element": "agua"
     },
     {
@@ -2031,7 +2097,7 @@
     },
     {
       "id": "adv_dragao_nebuloso",
-      "name": "Dragão Nebuloso",
+      "name": "Coruja Nebulosa",
       "level": 2,
       "class": "vento",
       "genre": "elemental",
@@ -2067,6 +2133,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento2.png?raw=true",
       "element": "vento"
     },
     {
@@ -2191,6 +2258,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
       "element": "terra"
     },
     {
