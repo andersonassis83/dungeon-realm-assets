@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-10T15:49:41.825Z",
+  "exportedAt": "2026-09-10T16:42:58.716Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 60,
@@ -41,12 +41,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -63,12 +98,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -85,12 +155,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -107,12 +212,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -129,12 +269,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_entim",
           "adversaryData": {
-            "id": "adv_entim"
+            "id": "adv_entim",
+            "name": "Árvore Ancestral",
+            "level": 2,
+            "class": "terra",
+            "genre": "elemental",
+            "maxHp": 278,
+            "attackPower": 19,
+            "defensePower": 22,
+            "speed": 13,
+            "dexterity": 13,
+            "vigor": 17,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3",
+              "terra_2"
+            ],
+            "dropPoolCardIds": [
+              "terra_3",
+              "terra_ef_2"
+            ],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70,
+              "terra_2": 70
+            },
+            "dropPoolWeights": {
+              "terra_3": 35,
+              "terra_ef_2": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_entim",
             "name": "Árvore Ancestral",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
+            "adversaryData": {
+              "id": "adv_entim",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true"
+            }
           }
         },
         {
@@ -151,12 +334,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -173,12 +391,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -195,12 +448,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -217,12 +505,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta1.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -239,12 +562,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryId": "adv_saurio",
           "adversaryData": {
-            "id": "adv_saurio"
+            "id": "adv_saurio",
+            "name": "Rocha desgastada",
+            "level": 2,
+            "class": "terra",
+            "genre": "elemental",
+            "maxHp": 278,
+            "attackPower": 19,
+            "defensePower": 22,
+            "speed": 13,
+            "dexterity": 13,
+            "vigor": 17,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3",
+              "terra_2"
+            ],
+            "dropPoolCardIds": [
+              "terra_3",
+              "terra_ef_2"
+            ],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70,
+              "terra_2": 70
+            },
+            "dropPoolWeights": {
+              "terra_3": 35,
+              "terra_ef_2": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_saurio",
             "name": "Rocha desgastada",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
+            "adversaryData": {
+              "id": "adv_saurio",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true"
+            }
           }
         },
         {
@@ -261,12 +627,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryId": "adv_besouro",
           "adversaryData": {
-            "id": "adv_besouro"
+            "id": "adv_besouro",
+            "name": "Lobo de pedra Tóxico",
+            "level": 2,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 206,
+            "attackPower": 14,
+            "defensePower": 15,
+            "speed": 10,
+            "dexterity": 9,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_besouro",
             "name": "Lobo de pedra Tóxico",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_besouro",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true"
+            }
           }
         },
         {
@@ -283,12 +684,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryId": "adv_besouro",
           "adversaryData": {
-            "id": "adv_besouro"
+            "id": "adv_besouro",
+            "name": "Lobo de pedra Tóxico",
+            "level": 2,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 206,
+            "attackPower": 14,
+            "defensePower": 15,
+            "speed": 10,
+            "dexterity": 9,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_besouro",
             "name": "Lobo de pedra Tóxico",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_besouro",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true"
+            }
           }
         },
         {
@@ -305,12 +741,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryId": "adv_besouro",
           "adversaryData": {
-            "id": "adv_besouro"
+            "id": "adv_besouro",
+            "name": "Lobo de pedra Tóxico",
+            "level": 2,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 206,
+            "attackPower": 14,
+            "defensePower": 15,
+            "speed": 10,
+            "dexterity": 9,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_besouro",
             "name": "Lobo de pedra Tóxico",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_besouro",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true"
+            }
           }
         },
         {
@@ -327,12 +798,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta2.png?raw=true",
           "adversaryId": "adv_besouro",
           "adversaryData": {
-            "id": "adv_besouro"
+            "id": "adv_besouro",
+            "name": "Lobo de pedra Tóxico",
+            "level": 2,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 206,
+            "attackPower": 14,
+            "defensePower": 15,
+            "speed": 10,
+            "dexterity": 9,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "terra_3",
+              "terra_1",
+              "terra_ef_2",
+              "terra_ef_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_3": 70,
+              "terra_1": 70,
+              "terra_ef_2": 70,
+              "terra_ef_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_besouro",
             "name": "Lobo de pedra Tóxico",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_besouro",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true"
+            }
           }
         },
         {
@@ -349,12 +855,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/floresta3.png?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         }
       ]
@@ -387,12 +928,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -409,12 +988,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -431,12 +1048,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -453,12 +1108,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -475,12 +1168,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_mantis_brasas",
           "adversaryData": {
-            "id": "adv_mantis_brasas"
+            "id": "adv_mantis_brasas",
+            "name": "Mantis de Brasas",
+            "level": 2,
+            "class": "fogo",
+            "genre": "elemental",
+            "maxHp": 220,
+            "attackPower": 25,
+            "defensePower": 15,
+            "speed": 17,
+            "dexterity": 16,
+            "vigor": 19,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3",
+              "fogo_6"
+            ],
+            "dropPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_ef_3"
+            ],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70,
+              "fogo_6": 70
+            },
+            "dropPoolWeights": {
+              "fogo_ef_1": 35,
+              "fogo_ef_3": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_mantis_brasas",
             "name": "Mantis de Brasas",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_mantis_brasas",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -497,12 +1233,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -519,12 +1293,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -541,12 +1353,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -563,12 +1413,50 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava1.jpg?raw=true",
           "adversaryId": "adv_salamandra",
           "adversaryData": {
-            "id": "adv_salamandra"
+            "id": "adv_salamandra",
+            "name": "Salamandra de fogo",
+            "level": 1,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 100,
+            "attackPower": 10,
+            "defensePower": 5,
+            "speed": 10,
+            "dexterity": 7,
+            "vigor": 7,
+            "deckPoolCardIds": [
+              "fogo_1",
+              "fogo_2",
+              "fogo_act_4",
+              "fogo_custom_1785695139180"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_1": 50,
+              "fogo_2": 30,
+              "fogo_5": 20,
+              "fogo_act_4": 10,
+              "fogo_custom_1785695139180": 10
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "fogo": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_salamandra",
             "name": "Salamandra de fogo",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_salamandra",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true"
+            }
           }
         },
         {
@@ -585,12 +1473,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_cerberus",
           "adversaryData": {
-            "id": "adv_cerberus"
+            "id": "adv_cerberus",
+            "name": "Pepita de Lava",
+            "level": 2,
+            "class": "fogo",
+            "genre": "elemental",
+            "maxHp": 220,
+            "attackPower": 25,
+            "defensePower": 15,
+            "speed": 17,
+            "dexterity": 16,
+            "vigor": 19,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3",
+              "fogo_6"
+            ],
+            "dropPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_ef_3"
+            ],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70,
+              "fogo_6": 70
+            },
+            "dropPoolWeights": {
+              "fogo_ef_1": 35,
+              "fogo_ef_3": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_cerberus",
             "name": "Pepita de Lava",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_cerberus",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -607,12 +1538,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
-            "id": "adv_custom_1788700305376"
+            "id": "adv_custom_1788700305376",
+            "name": "Chama ardente viva",
+            "level": 2,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 163,
+            "attackPower": 18,
+            "defensePower": 10,
+            "speed": 13,
+            "dexterity": 11,
+            "vigor": 13,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700305376",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -629,12 +1595,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
-            "id": "adv_custom_1788700305376"
+            "id": "adv_custom_1788700305376",
+            "name": "Chama ardente viva",
+            "level": 2,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 163,
+            "attackPower": 18,
+            "defensePower": 10,
+            "speed": 13,
+            "dexterity": 11,
+            "vigor": 13,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700305376",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -651,12 +1652,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
-            "id": "adv_custom_1788700305376"
+            "id": "adv_custom_1788700305376",
+            "name": "Chama ardente viva",
+            "level": 2,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 163,
+            "attackPower": 18,
+            "defensePower": 10,
+            "speed": 13,
+            "dexterity": 11,
+            "vigor": 13,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700305376",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -673,12 +1709,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700305376",
           "adversaryData": {
-            "id": "adv_custom_1788700305376"
+            "id": "adv_custom_1788700305376",
+            "name": "Chama ardente viva",
+            "level": 2,
+            "class": "fogo",
+            "genre": "generico",
+            "maxHp": 163,
+            "attackPower": 18,
+            "defensePower": 10,
+            "speed": 13,
+            "dexterity": 11,
+            "vigor": 13,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_ef_3",
+              "fogo_3"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_ef_3": 70,
+              "fogo_3": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_custom_1788700305376",
             "name": "Chama ardente viva",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700305376",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true"
+            }
           }
         },
         {
@@ -695,12 +1766,65 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/lava3.jpg?raw=true",
           "adversaryId": "adv_pyros",
           "adversaryData": {
-            "id": "adv_pyros"
+            "id": "adv_pyros",
+            "name": "Pyros O Devorador",
+            "level": 4,
+            "class": "fogo",
+            "genre": "boss",
+            "maxHp": 410,
+            "attackPower": 43,
+            "defensePower": 28,
+            "speed": 24,
+            "dexterity": 24,
+            "vigor": 32,
+            "deckPoolCardIds": [
+              "fogo_ef_1",
+              "fogo_5",
+              "fogo_custom_1785694886489",
+              "fogo_custom_1785694598526",
+              "fogo_custom_1785694780235",
+              "fogo_custom_1785694973291"
+            ],
+            "dropPoolCardIds": [
+              "fogo_custom_1785694780235",
+              "fogo_custom_1785694973291",
+              "fogo_custom_1785695139180",
+              "fogo_custom_1785695229746"
+            ],
+            "deckPoolWeights": {
+              "fogo_ef_1": 70,
+              "fogo_5": 70,
+              "fogo_custom_1785694886489": 70,
+              "fogo_custom_1785694598526": 70,
+              "fogo_custom_1785694780235": 70,
+              "fogo_custom_1785694973291": 70
+            },
+            "dropPoolWeights": {
+              "fogo_custom_1785694780235": 60,
+              "fogo_custom_1785694973291": 60,
+              "fogo_custom_1785695139180": 60,
+              "fogo_custom_1785695229746": 60
+            },
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [
+              "fogo"
+            ],
+            "gemDropWeights": {
+              "fogo": 50
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-fogo.png?raw=true",
+            "element": "fogo"
           },
           "enemy": {
             "id": "adv_pyros",
             "name": "Pyros O Devorador",
-            "class": "fogo"
+            "class": "fogo",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-fogo.png?raw=true",
+            "adversaryData": {
+              "id": "adv_pyros",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-fogo.png?raw=true"
+            }
           }
         }
       ]
@@ -733,12 +1857,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -755,12 +1914,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -777,12 +1971,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -799,12 +2028,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -821,12 +2085,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_tubarao",
           "adversaryData": {
-            "id": "adv_tubarao"
+            "id": "adv_tubarao",
+            "name": "Líquido lamacento",
+            "level": 2,
+            "class": "agua",
+            "genre": "elemental",
+            "maxHp": 255,
+            "attackPower": 20,
+            "defensePower": 18,
+            "speed": 16,
+            "dexterity": 16,
+            "vigor": 18,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2",
+              "agua_ef_3"
+            ],
+            "dropPoolCardIds": [
+              "agua_4",
+              "agua_ef_1"
+            ],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70,
+              "agua_ef_3": 70
+            },
+            "dropPoolWeights": {
+              "agua_4": 35,
+              "agua_ef_1": 20
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_tubarao",
             "name": "Líquido lamacento",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_tubarao",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true"
+            }
           }
         },
         {
@@ -843,12 +2150,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -865,12 +2207,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -887,12 +2264,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -909,12 +2321,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira1.jpg?raw=true",
           "adversaryId": "adv_lula_mares",
           "adversaryData": {
-            "id": "adv_lula_mares"
+            "id": "adv_lula_mares",
+            "name": "Gota furiosa",
+            "level": 1,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 167,
+            "attackPower": 12,
+            "defensePower": 11,
+            "speed": 11,
+            "dexterity": 10,
+            "vigor": 11,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_lula_mares",
             "name": "Gota furiosa",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+            "adversaryData": {
+              "id": "adv_lula_mares",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true"
+            }
           }
         },
         {
@@ -931,12 +2378,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_tartaruga",
           "adversaryData": {
-            "id": "adv_tartaruga"
+            "id": "adv_tartaruga",
+            "name": "Pássaro dos rios",
+            "level": 2,
+            "class": "agua",
+            "genre": "elemental",
+            "maxHp": 255,
+            "attackPower": 20,
+            "defensePower": 18,
+            "speed": 16,
+            "dexterity": 16,
+            "vigor": 18,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2",
+              "agua_ef_3"
+            ],
+            "dropPoolCardIds": [
+              "agua_4",
+              "agua_ef_1"
+            ],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70,
+              "agua_ef_3": 70
+            },
+            "dropPoolWeights": {
+              "agua_4": 35,
+              "agua_ef_1": 20
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua2.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_tartaruga",
             "name": "Pássaro dos rios",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_tartaruga",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua2.png?raw=true"
+            }
           }
         },
         {
@@ -953,12 +2443,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
-            "id": "adv_custom_1788700416814"
+            "id": "adv_custom_1788700416814",
+            "name": "Lagarto hídrico",
+            "level": 2,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 189,
+            "attackPower": 15,
+            "defensePower": 13,
+            "speed": 12,
+            "dexterity": 11,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
             "name": "Lagarto hídrico",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700416814",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true"
+            }
           }
         },
         {
@@ -975,12 +2500,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
-            "id": "adv_custom_1788700416814"
+            "id": "adv_custom_1788700416814",
+            "name": "Lagarto hídrico",
+            "level": 2,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 189,
+            "attackPower": 15,
+            "defensePower": 13,
+            "speed": 12,
+            "dexterity": 11,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
             "name": "Lagarto hídrico",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700416814",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true"
+            }
           }
         },
         {
@@ -997,12 +2557,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
-            "id": "adv_custom_1788700416814"
+            "id": "adv_custom_1788700416814",
+            "name": "Lagarto hídrico",
+            "level": 2,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 189,
+            "attackPower": 15,
+            "defensePower": 13,
+            "speed": 12,
+            "dexterity": 11,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
             "name": "Lagarto hídrico",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700416814",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true"
+            }
           }
         },
         {
@@ -1019,12 +2614,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira2.jpg?raw=true",
           "adversaryId": "adv_custom_1788700416814",
           "adversaryData": {
-            "id": "adv_custom_1788700416814"
+            "id": "adv_custom_1788700416814",
+            "name": "Lagarto hídrico",
+            "level": 2,
+            "class": "agua",
+            "genre": "generico",
+            "maxHp": 189,
+            "attackPower": 15,
+            "defensePower": 13,
+            "speed": 12,
+            "dexterity": 11,
+            "vigor": 12,
+            "deckPoolCardIds": [
+              "agua_4",
+              "agua_5",
+              "agua_ef_1",
+              "agua_ef_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "agua_4": 70,
+              "agua_5": 70,
+              "agua_ef_1": 70,
+              "agua_ef_2": 70
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "element": "agua"
           },
           "enemy": {
             "id": "adv_custom_1788700416814",
             "name": "Lagarto hídrico",
-            "class": "agua"
+            "class": "agua",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_custom_1788700416814",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true"
+            }
           }
         },
         {
@@ -1041,12 +2671,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/cachoeira3.jpg?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         }
       ]
@@ -1079,12 +2744,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1101,12 +2801,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1123,12 +2858,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1145,12 +2915,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1167,12 +2972,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_quimera_astro",
           "adversaryData": {
-            "id": "adv_quimera_astro"
+            "id": "adv_quimera_astro",
+            "name": "Vendaval violento",
+            "level": 2,
+            "class": "vento",
+            "genre": "elemental",
+            "maxHp": 204,
+            "attackPower": 21,
+            "defensePower": 15,
+            "speed": 21,
+            "dexterity": 19,
+            "vigor": 14,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2",
+              "vento_6"
+            ],
+            "dropPoolCardIds": [
+              "vento_ef_1",
+              "vento_ef_3"
+            ],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50,
+              "vento_6": 70
+            },
+            "dropPoolWeights": {
+              "vento_ef_1": 35,
+              "vento_ef_3": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_quimera_astro",
             "name": "Vendaval violento",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_quimera_astro",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1189,12 +3037,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1211,12 +3094,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_griffin",
           "adversaryData": {
-            "id": "adv_griffin"
+            "id": "adv_griffin",
+            "name": "Vendaval Astral",
+            "level": 1,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 134,
+            "attackPower": 13,
+            "defensePower": 9,
+            "speed": 15,
+            "dexterity": 12,
+            "vigor": 9,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_griffin",
             "name": "Vendaval Astral",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_griffin",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true"
+            }
           }
         },
         {
@@ -1233,12 +3151,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -1255,12 +3208,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha1.jpg?raw=true",
           "adversaryId": "adv_sprout",
           "adversaryData": {
-            "id": "adv_sprout"
+            "id": "adv_sprout",
+            "name": "Sprout Foliado",
+            "level": 1,
+            "class": "terra",
+            "genre": "generico",
+            "maxHp": 160,
+            "attackPower": 12,
+            "defensePower": 8,
+            "speed": 12,
+            "dexterity": 8,
+            "vigor": 8,
+            "deckPoolCardIds": [
+              "terra_1",
+              "terra_2",
+              "terra_5"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "terra_1": 50,
+              "terra_2": 30,
+              "terra_5": 20
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 60,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {
+              "terra": 10
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "element": "terra"
           },
           "enemy": {
             "id": "adv_sprout",
             "name": "Sprout Foliado",
-            "class": "terra"
+            "class": "terra",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_sprout",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true"
+            }
           }
         },
         {
@@ -1277,12 +3265,55 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryId": "adv_dragao_nebuloso",
           "adversaryData": {
-            "id": "adv_dragao_nebuloso"
+            "id": "adv_dragao_nebuloso",
+            "name": "Coruja Nebulosa",
+            "level": 2,
+            "class": "vento",
+            "genre": "elemental",
+            "maxHp": 204,
+            "attackPower": 21,
+            "defensePower": 15,
+            "speed": 21,
+            "dexterity": 19,
+            "vigor": 14,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2",
+              "vento_6"
+            ],
+            "dropPoolCardIds": [
+              "vento_ef_1",
+              "vento_ef_3"
+            ],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50,
+              "vento_6": 70
+            },
+            "dropPoolWeights": {
+              "vento_ef_1": 35,
+              "vento_ef_3": 35
+            },
+            "elementalDropChance": 54,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento2.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_dragao_nebuloso",
             "name": "Coruja Nebulosa",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento2.png?raw=true",
+            "adversaryData": {
+              "id": "adv_dragao_nebuloso",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento2.png?raw=true"
+            }
           }
         },
         {
@@ -1299,12 +3330,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryId": "adv_seraphim",
           "adversaryData": {
-            "id": "adv_seraphim"
+            "id": "adv_seraphim",
+            "name": "Ave dos ventos",
+            "level": 2,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 151,
+            "attackPower": 15,
+            "defensePower": 10,
+            "speed": 17,
+            "dexterity": 13,
+            "vigor": 10,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_seraphim",
             "name": "Ave dos ventos",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_seraphim",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true"
+            }
           }
         },
         {
@@ -1321,12 +3387,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryId": "adv_seraphim",
           "adversaryData": {
-            "id": "adv_seraphim"
+            "id": "adv_seraphim",
+            "name": "Ave dos ventos",
+            "level": 2,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 151,
+            "attackPower": 15,
+            "defensePower": 10,
+            "speed": 17,
+            "dexterity": 13,
+            "vigor": 10,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_seraphim",
             "name": "Ave dos ventos",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_seraphim",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true"
+            }
           }
         },
         {
@@ -1343,12 +3444,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryId": "adv_seraphim",
           "adversaryData": {
-            "id": "adv_seraphim"
+            "id": "adv_seraphim",
+            "name": "Ave dos ventos",
+            "level": 2,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 151,
+            "attackPower": 15,
+            "defensePower": 10,
+            "speed": 17,
+            "dexterity": 13,
+            "vigor": 10,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_seraphim",
             "name": "Ave dos ventos",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_seraphim",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true"
+            }
           }
         },
         {
@@ -1365,12 +3501,47 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha2.jpg?raw=true",
           "adversaryId": "adv_seraphim",
           "adversaryData": {
-            "id": "adv_seraphim"
+            "id": "adv_seraphim",
+            "name": "Ave dos ventos",
+            "level": 2,
+            "class": "vento",
+            "genre": "generico",
+            "maxHp": 151,
+            "attackPower": 15,
+            "defensePower": 10,
+            "speed": 17,
+            "dexterity": 13,
+            "vigor": 10,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_ef_3",
+              "vento_2"
+            ],
+            "dropPoolCardIds": [],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_ef_3": 70,
+              "vento_2": 50
+            },
+            "dropPoolWeights": {},
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 0,
+            "gemDropPoolIds": [],
+            "gemDropWeights": {},
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_seraphim",
             "name": "Ave dos ventos",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
+            "adversaryData": {
+              "id": "adv_seraphim",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true"
+            }
           }
         },
         {
@@ -1387,12 +3558,65 @@
           "bgImage": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/battles/montanha3.jpg?raw=true",
           "adversaryId": "adv_chronos",
           "adversaryData": {
-            "id": "adv_chronos"
+            "id": "adv_chronos",
+            "name": "Tornado obscuro",
+            "level": 4,
+            "class": "vento",
+            "genre": "boss",
+            "maxHp": 380,
+            "attackPower": 36,
+            "defensePower": 27,
+            "speed": 29,
+            "dexterity": 29,
+            "vigor": 25,
+            "deckPoolCardIds": [
+              "vento_ef_1",
+              "vento_act_3",
+              "vento_act_4",
+              "vento_3",
+              "vento_act_2",
+              "vento_4"
+            ],
+            "dropPoolCardIds": [
+              "vento_act_4",
+              "vento_3",
+              "vento_act_2",
+              "vento_4"
+            ],
+            "deckPoolWeights": {
+              "vento_ef_1": 70,
+              "vento_act_3": 70,
+              "vento_act_4": 70,
+              "vento_3": 70,
+              "vento_act_2": 70,
+              "vento_4": 65
+            },
+            "dropPoolWeights": {
+              "vento_act_4": 60,
+              "vento_3": 60,
+              "vento_act_2": 60,
+              "vento_4": 35
+            },
+            "elementalDropChance": 0,
+            "bossGemVsCardDropChance": 50,
+            "gemDropPoolIds": [
+              "vento"
+            ],
+            "gemDropWeights": {
+              "vento": 50
+            },
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-vento.png?raw=true",
+            "element": "vento"
           },
           "enemy": {
             "id": "adv_chronos",
             "name": "Tornado obscuro",
-            "class": "vento"
+            "class": "vento",
+            "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-vento.png?raw=true",
+            "adversaryData": {
+              "id": "adv_chronos",
+              "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-vento.png?raw=true"
+            }
           }
         }
       ]
