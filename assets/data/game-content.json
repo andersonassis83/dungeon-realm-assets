@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-07T21:10:16.309Z",
+  "exportedAt": "2026-09-10T12:07:08.692Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 60,
@@ -1365,12 +1365,12 @@
       "gemDropWeights": {
         "terra": 10
       },
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra3.png?raw=true",
       "element": "terra"
     },
     {
       "id": "adv_besouro",
-      "name": "Besouro de pedra Tóxico",
+      "name": "Lobo de pedra Tóxico",
       "level": 2,
       "class": "terra",
       "genre": "generico",
@@ -1398,12 +1398,12 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-terra2.png?raw=true",
       "element": "terra"
     },
     {
       "id": "adv_saurio",
-      "name": "Saurio de Musgo",
+      "name": "Rocha desgastada",
       "level": 2,
       "class": "terra",
       "genre": "elemental",
@@ -1496,12 +1496,12 @@
         "fogo": 25,
         "vento": 25
       },
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-terra.png?raw=true",
       "element": "terra"
     },
     {
       "id": "adv_salamandra",
-      "name": "Salamandra Ígnea",
+      "name": "Salamandra de fogo",
       "level": 1,
       "class": "fogo",
       "genre": "generico",
@@ -1532,7 +1532,7 @@
       "gemDropWeights": {
         "fogo": 10
       },
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-fogo2.png?raw=true",
       "element": "fogo"
     },
     {
@@ -1619,23 +1619,17 @@
       "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
-        "fogo",
-        "terra",
-        "agua",
-        "vento"
+        "fogo"
       ],
       "gemDropWeights": {
-        "fogo": 25,
-        "terra": 25,
-        "agua": 25,
-        "vento": 25
+        "fogo": 50
       },
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-fogo.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-fogo.png?raw=true",
       "element": "fogo"
     },
     {
       "id": "adv_lula_mares",
-      "name": "Água viva furiosa",
+      "name": "Gota furiosa",
       "level": 1,
       "class": "agua",
       "genre": "generico",
@@ -1668,7 +1662,7 @@
     },
     {
       "id": "adv_leviata",
-      "name": "Leviatã Abissal",
+      "name": "Espectro lamacento abissal",
       "level": 4,
       "class": "agua",
       "genre": "boss",
@@ -1709,23 +1703,17 @@
       "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
-        "agua",
-        "terra",
-        "fogo",
-        "vento"
+        "agua"
       ],
       "gemDropWeights": {
-        "agua": 25,
-        "terra": 25,
-        "fogo": 25,
-        "vento": 25
+        "agua": 50
       },
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-agua.png?raw=true",
       "element": "agua"
     },
     {
       "id": "adv_entim",
-      "name": "Entim Ancestral",
+      "name": "Árvore Ancestral",
       "level": 2,
       "class": "terra",
       "genre": "elemental",
@@ -1761,11 +1749,12 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-terra.png?raw=true",
       "element": "terra"
     },
     {
       "id": "adv_cerberus",
-      "name": "Cerberus da Lava",
+      "name": "Pepita de Lava",
       "level": 2,
       "class": "fogo",
       "genre": "elemental",
@@ -1846,7 +1835,7 @@
     },
     {
       "id": "adv_tubarao",
-      "name": "Tubarão Arrecife",
+      "name": "Líquido lamacento",
       "level": 2,
       "class": "agua",
       "genre": "elemental",
@@ -1882,6 +1871,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-agua.png?raw=true",
       "element": "agua"
     },
     {
@@ -1995,11 +1985,12 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
       "element": "vento"
     },
     {
       "id": "adv_quimera_astro",
-      "name": "Quimera Cósmica",
+      "name": "Vendaval violento",
       "level": 2,
       "class": "vento",
       "genre": "elemental",
@@ -2035,6 +2026,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/e-vento.png?raw=true",
       "element": "vento"
     },
     {
@@ -2079,7 +2071,7 @@
     },
     {
       "id": "adv_seraphim",
-      "name": "Seraphim de Luz",
+      "name": "Ave dos ventos",
       "level": 2,
       "class": "vento",
       "genre": "generico",
@@ -2107,11 +2099,12 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento3.png?raw=true",
       "element": "vento"
     },
     {
       "id": "adv_chronos",
-      "name": "Chronos Astral",
+      "name": "Tornado obscuro",
       "level": 4,
       "class": "vento",
       "genre": "boss",
@@ -2152,18 +2145,12 @@
       "elementalDropChance": 0,
       "bossGemVsCardDropChance": 50,
       "gemDropPoolIds": [
-        "vento",
-        "terra",
-        "fogo",
-        "agua"
+        "vento"
       ],
       "gemDropWeights": {
-        "vento": 25,
-        "terra": 25,
-        "fogo": 25,
-        "agua": 25
+        "vento": 50
       },
-      "battleBgImage": "https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1600&q=80",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/b-vento.png?raw=true",
       "element": "vento"
     },
     {
@@ -2241,35 +2228,35 @@
     },
     {
       "id": "adv_custom_1788700416814",
-      "name": "Gota furiosa",
+      "name": "Lagarto hídrico",
       "level": 2,
       "class": "agua",
       "genre": "generico",
-      "maxHp": 163,
-      "attackPower": 18,
-      "defensePower": 10,
-      "speed": 13,
+      "maxHp": 189,
+      "attackPower": 15,
+      "defensePower": 13,
+      "speed": 12,
       "dexterity": 11,
-      "vigor": 13,
+      "vigor": 12,
       "deckPoolCardIds": [
-        "fogo_ef_1",
-        "fogo_5",
-        "fogo_ef_3",
-        "fogo_3"
+        "agua_4",
+        "agua_5",
+        "agua_ef_1",
+        "agua_ef_2"
       ],
       "dropPoolCardIds": [],
       "deckPoolWeights": {
-        "fogo_ef_1": 70,
-        "fogo_5": 70,
-        "fogo_ef_3": 70,
-        "fogo_3": 70
+        "agua_4": 70,
+        "agua_5": 70,
+        "agua_ef_1": 70,
+        "agua_ef_2": 70
       },
       "dropPoolWeights": {},
       "elementalDropChance": 0,
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
-      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua.png?raw=true",
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-agua3.png?raw=true",
       "element": "agua"
     },
     {
@@ -2302,6 +2289,7 @@
       "bossGemVsCardDropChance": 0,
       "gemDropPoolIds": [],
       "gemDropWeights": {},
+      "imageUrl": "https://github.com/andersonassis83/dungeon-realm-assets/blob/main/assets/img/enemies-character/g-vento.png?raw=true",
       "element": "vento"
     }
   ],
@@ -5663,6 +5651,7 @@
     "bgm": {
       "defaultBgm": "",
       "startScreen": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/start-screem/Sovereign-Tides.mp3",
+      "characterSelect": "",
       "worldSelect": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/mainscreem/Primal-Ground.mp3",
       "menu": "",
       "map": "",
@@ -5681,6 +5670,7 @@
       "shieldGain": "",
       "spellCast": "",
       "criticalHit": "",
+      "finishingBlow": "",
       "heal": "",
       "victory": "",
       "defeat": ""
