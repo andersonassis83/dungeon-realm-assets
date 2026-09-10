@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0",
   "appVersion": "2.0.0",
-  "exportedAt": "2026-09-10T14:59:16.954Z",
+  "exportedAt": "2026-09-10T15:49:41.825Z",
   "summary": {
     "worldsCount": 4,
     "stagesCount": 60,
@@ -5719,7 +5719,7 @@
     "bgm": {
       "defaultBgm": "",
       "startScreen": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/start-screem/Sovereign-Tides.mp3",
-      "characterSelect": "",
+      "characterSelect": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/character-choice/Silver%20Resonance.mp3",
       "worldSelect": "https://github.com/andersonassis83/dungeon-realm-assets/raw/refs/heads/main/assets/audio/tracks/mainscreem/Primal-Ground.mp3",
       "menu": "",
       "map": "",
